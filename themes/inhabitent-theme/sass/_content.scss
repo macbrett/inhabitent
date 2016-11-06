@@ -24,8 +24,9 @@
     max-width: 100%;
 
 }
-.header-wrap h1.entry-title {
-  font-weight: 600;
+
+.entry-title a{
+	  font-weight: 600;
   color: #FFF;
   font-size:0.9em;
   line-height: 1.3em;
@@ -36,20 +37,22 @@
     max-width: 85%;
     top: 0;
     text-align:left;
+    text-decoration:none;
 }
+
 
 .entry-meta{
 	 font-weight: 400;
   color: #FFF;
-  font-size:0.5em;
+  font-size:1rem;
   line-height: 1.3em;
 	background-color: #248a83;
 	text-transform:uppercase;
 	 padding: .75rem 1.5rem;
-		margin-top: 20rem;
-    max-width: 85%;
-    margin-left:6rem;
-    text-align:left;
+		margin-top: 23rem;
+    max-width: 65%;
+    margin-left:14rem;
+    text-align:center;
 
 }
 
@@ -83,6 +86,7 @@
 .entry-content,
 .entry-summary {
 	margin: $base__space-unit 0 0;
+	    max-width: 640px;
 }
 
 .page-links {

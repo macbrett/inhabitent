@@ -10,7 +10,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-COMMENTING THIS OUT FOR TESTING
+<!--COMMENTING THese php calls and replacing with below-->
 
 	<!--<header class="entry-header">
 		<?php if ( has_post_thumbnail() ) : ?>
@@ -35,7 +35,9 @@ COMMENTING THIS OUT FOR TESTING
 <div class="header-wrap" style="background: url('<?php echo $backgroundImg[0]; ?>')bottom center no-repeat; height:438px; width:640px;">
   <header class="entry-header">
 
-     <h1 class="entry-title"><?php the_title(); ?></h1>
+
+<!-- moved this from above to within the newly constructed header wrap-->
+
      <?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 </header>
 
