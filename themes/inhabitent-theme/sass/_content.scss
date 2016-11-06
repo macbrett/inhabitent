@@ -4,9 +4,67 @@
 
 /* Posts and pages */
 
+.site-content {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1120px;
+    padding-top: 50px;
+}
+ .content-area{   border-right: 1px solid #e1e1e1;
+    padding-right: 5%;
+    width: 73%;
+}
+
+.header-wrap img{
+
+    height: auto;
+    max-width: 100%;
+
+}
+.header-wrap h1.entry-title {
+  font-weight: 600;
+  color: #FFF;
+  font-size:0.9em;
+  line-height: 1.3em;
+	background-color: #248a83;
+	text-transform:uppercase;
+	 padding: .75rem 1.5rem;
+		margin-top: 2.25rem;
+    max-width: 85%;
+    top: 0;
+    text-align:left;
+}
+
+.entry-meta{
+	 font-weight: 400;
+  color: #FFF;
+  font-size:0.5em;
+  line-height: 1.3em;
+	background-color: #248a83;
+	text-transform:uppercase;
+	 padding: .75rem 1.5rem;
+		margin-top: 20rem;
+    max-width: 85%;
+    margin-left:6rem;
+    text-align:left;
+
+}
+
+
+.content-area{
+    border-right: 1px solid #e1e1e1;
+    padding-right: 5%;
+    width: 73%;
+}
+
+
 .sticky {
 	display: block;
 }
+
 
 .hentry {
 	margin: 0 0 $base__space-unit;
