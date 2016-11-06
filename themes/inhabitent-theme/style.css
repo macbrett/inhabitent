@@ -662,9 +662,14 @@ object {
   background-color: transparent;
   border-bottom: 0;
   position: absolute;
+  text-shadow: 1px 1px 2px #323232;
   transition: top .5s linear;
   width: 100%;
-  z-index: 3; }
+  z-index: 3;
+  padding: .5rem 0; }
+
+.site-header a {
+  color: white; }
 
 .container {
   -ms-flex-align: center;
@@ -677,8 +682,7 @@ object {
   margin-right: auto;
   width: 1120px; }
 
-.site-header h1 {
-  background: url(http://images.clipartpanda.com/tent-clip-art-dir6aKAi9.gif) no-repeat;
+.site-title h1 {
   background-size: 50px 33px;
   height: 33px;
   margin: 0;
@@ -687,13 +691,19 @@ object {
   white-space: nowrap;
   width: 50px; }
 
-.site-header {
-  background: url("/images/hero-image/home-hero.jpg") no-repeat center center;
-  height: 200px;
-  background-size: cover; }
+/*.site-header {
+
+  background: url('../../images/hero-image/home-hero.jpg')
+  no-repeat center center;
+  height:200px;
+  background-size: cover;
+
+}*/
+.site-branding {
+  height: 50px;
+  width: 42px; }
 
 .logo {
-  height: 70px;
   width: 53px; }
 
 .main-navigation {
@@ -710,3 +720,82 @@ object {
   float: left;
   padding-left: 1.5rem;
   position: relative; }
+
+.header-search {
+  line-height: 1;
+  padding-left: 1.5rem; }
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px; }
+
+.site-footer {
+  background: url("../../images/footer-background/dark-wood.png");
+  background-size: 512px 512px;
+  color: #fff; }
+
+.footer-blocks {
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px;
+  font-family: 'Merriweather Web',serif;
+  line-height: 1.75; }
+
+.footer-block-item {
+  margin: 3rem 0;
+  padding-right: 1.5rem;
+  width: 25%; }
+
+.footer-block-item a {
+  text-decoration: none;
+  color: white; }
+
+.footer-blocks h3 {
+  color: #d99054;
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  margin-bottom: .75rem;
+  text-transform: uppercase; }
+
+.footer-blocks p {
+  margin-bottom: .5rem;
+  color: white;
+  font-size: 20px; }
+
+.footer-blocks i {
+  font-size: 20px;
+  font-size: 1.25rem;
+  margin-right: .5rem; }
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white; }
+
+.footer-block-item:last-child {
+  padding-right: 0;
+  width: 50%; }
+
+.footer-block-item .text-logo {
+  margin-top: 1rem;
+  text-align: right; }
+
+.footer-block-item .text-logo img {
+  max-width: 50%; }
+
+.copyright {
+  font-family: Novecento Sans Web,sans-serif;
+  padding: 1.5rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: white; }

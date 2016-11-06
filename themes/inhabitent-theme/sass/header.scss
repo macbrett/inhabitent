@@ -8,12 +8,17 @@
     background-color: transparent;
     border-bottom: 0;
     position: absolute;
-
+    text-shadow: 1px 1px 2px #323232;
     transition: top .5s linear;
     width: 100%;
     z-index: 3;
+    padding: .5rem 0;
 }
 
+.site-header a{
+
+    color: white;
+}
 
  .container {
 
@@ -32,8 +37,8 @@
 }
 
 
-.site-header h1{
-background: url(http://images.clipartpanda.com/tent-clip-art-dir6aKAi9.gif) no-repeat;
+.site-title h1{
+
     background-size: 50px 33px;
     height: 33px;
     margin: 0;
@@ -44,21 +49,22 @@ background: url(http://images.clipartpanda.com/tent-clip-art-dir6aKAi9.gif) no-r
 
 }
 
-.site-header {
+/*.site-header {
 
-  background: url('/images/hero-image/home-hero.jpg')
+  background: url('../../images/hero-image/home-hero.jpg')
   no-repeat center center;
   height:200px;
   background-size: cover;
 
-}
+}*/
 
 .site-branding{
-
+height:50px;
+width:42px;
 }
 
 .logo {
-height: 70px;
+
 width: 53px;
 }
 
@@ -91,5 +97,8 @@ font-family: Novecento Sans Web,sans-serif;
 
 
 }
-
+.header-search {
+    line-height: 1;
+    padding-left: 1.5rem;
+}
 
