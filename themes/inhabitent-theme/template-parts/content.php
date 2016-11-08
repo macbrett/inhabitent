@@ -7,45 +7,25 @@
 
 ?>
 
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>-->
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<header class="entry-header">
 
-<!--COMMENTING THese php calls and replacing with below-->
-
-	<!--<header class="entry-header">
 		<?php if ( has_post_thumbnail() ) : ?>
 			<?php the_post_thumbnail( 'large' ); ?>
 		<?php endif; ?>
+
 
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 
 		<?php if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
 			<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?> / <?php red_starter_posted_by(); ?>
-		</div>-->
+		</div>
 
-		<!-- .entry-meta -->
+
 		<?php endif; ?>
-	</header><!-- .entry-header -->
-
-	<?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
-
-<!-- this is the code that puts the header title and metaon picture -->
-
-<div class="header-wrap" style="background: url('<?php echo $backgroundImg[0]; ?>')bottom center no-repeat; height:438px; width:640px;">
-  <header class="entry-header">
-
-
-<!-- moved this from above to within the newly constructed header wrap-->
-
-     <?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-</header>
-
-<div class="entry-meta">
-			<?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?> / <?php red_starter_posted_by(); ?>
-			</div>
-			</div>
-	<!-- this is the end of the code that puts the title on and meta on picture -->
+	</header>
 	<div class="entry-content">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-content -->

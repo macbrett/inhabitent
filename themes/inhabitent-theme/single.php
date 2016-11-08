@@ -7,11 +7,7 @@
 
 get_header(); ?>
 
-
-
-
-
-  </header>
+</header>
 
 
 	<div id="primary" class="content-area">

@@ -13,9 +13,10 @@
     width: 1120px;
     padding-top: 50px;
 }
- .content-area{   border-right: 1px solid #e1e1e1;
+ .content-area{
+ border-right: 1px solid #e1e1e1;
     padding-right: 5%;
-    width: 73%;
+
 }
 
 .header-wrap img{
@@ -25,44 +26,71 @@
 
 }
 
-.entry-title a{
-	  font-weight: 600;
-  color: #FFF;
-  font-size:0.9em;
-  line-height: 1.3em;
-	background-color: #248a83;
-	text-transform:uppercase;
-	 padding: .75rem 1.5rem;
-		margin-top: 2.25rem;
+
+.type-post .entry-header{
+  line-height: 0;
+    position: relative;
+
+}
+.type-post .entry-title {
+
+
+font-family: Novecento Sans Web,sans-serif;
+
+    position: absolute;
+    font-weight: 600;
+
+
+    background-color: #248a83;
+    text-transform:uppercase;
+     padding: .75rem 1.5rem;
+        margin-top: 2.25rem;
     max-width: 85%;
     top: 0;
     text-align:left;
     text-decoration:none;
-}
-
-
-.entry-meta{
-	 font-weight: 400;
-  color: #FFF;
-  font-size:1rem;
-  line-height: 1.3em;
-	background-color: #248a83;
-	text-transform:uppercase;
-	 padding: .75rem 1.5rem;
-		margin-top: 23rem;
-    max-width: 65%;
-    margin-left:14rem;
-    text-align:center;
 
 }
+
+.type-post .entry-meta{
+    background-color: #248a83;
+    bottom: 0;
+    color: #fff;
+    display: inline-block;
+    font-family: Novecento Sans Web,sans-serif;
+    padding: 1.00005rem 1.5rem;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    }
 
 
 .content-area{
     border-right: 1px solid #e1e1e1;
     padding-right: 5%;
-    width: 73%;
+    width: 100%;
 }
+ .home-hero {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url('../../images//hero-image/home-hero.jpg') no-repeat top;
+    background-size: cover,cover;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100vh;
+    }
 
+    .logo-header{
+    background:  url('http://images.clipartpanda.com/tent-clipart-black-and-white-white-black-tent-hi.png')
+    }
 
 .sticky {
 	display: block;
