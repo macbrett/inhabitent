@@ -1,9 +1,9 @@
-
+<?php
 get_header(); ?>
 
 
 
-
+<div class="about">
 <h1>About</h1>
 <p>
  Inhabitent Camping Supply Co. has been Vancouver baked-good icon for more than two whole months! Customers often comment on the bustle of activity they see in store…that’s where the magic happens every day.
@@ -20,6 +20,6 @@ Our shop in nestled away in a lovely little corner of Vancouver. Pop in, say hi,
 </p>
 <h1>Our Team</h1>
 
-
+</div>
 
 <?php get_footer(); ?>

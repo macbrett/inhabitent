@@ -4,14 +4,11 @@
 
 /* Posts and pages */
 
-.entry-title a {
-    text-decoration:none;
-    color:white;
-}
+
 .site-content {
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+
     margin-left: auto;
     margin-right: auto;
     width: 1120px;
@@ -36,7 +33,7 @@
     position: relative;
 
 }
-.type-post .entry-title {
+ .type-post .entry-title {
 
 
 font-family: Novecento Sans Web,sans-serif;
@@ -56,7 +53,7 @@ font-family: Novecento Sans Web,sans-serif;
 
 }
 
-.type-post .entry-meta{
+ .type-post .entry-meta{
    background-color: #248a83;
     bottom: 0;
     color: #fff;
@@ -118,6 +115,8 @@ font-family: Novecento Sans Web,sans-serif;
     .logo-header{
     background:  url('http://images.clipartpanda.com/tent-clipart-black-and-white-white-black-tent-hi.png')
     }
+
+
 
 .sticky {
 	display: block;
