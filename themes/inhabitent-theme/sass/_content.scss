@@ -4,6 +4,10 @@
 
 /* Posts and pages */
 
+.entry-title a {
+    text-decoration:none;
+    color:white;
+}
 .site-content {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -53,7 +57,7 @@ font-family: Novecento Sans Web,sans-serif;
 }
 
 .type-post .entry-meta{
-    background-color: #248a83;
+   background-color: #248a83;
     bottom: 0;
     color: #fff;
     display: inline-block;
@@ -62,6 +66,7 @@ font-family: Novecento Sans Web,sans-serif;
     position: absolute;
     right: 0;
     text-transform: uppercase;
+    margin-right:18rem;
     }
 
 

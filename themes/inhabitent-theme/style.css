@@ -557,6 +557,10 @@ a {
 # Content
 --------------------------------------------------------------*/
 /* Posts and pages */
+.entry-title a {
+  text-decoration: none;
+  color: white; }
+
 .site-content {
   display: -ms-flexbox;
   display: flex;
@@ -599,7 +603,8 @@ a {
   padding: 1.00005rem 1.5rem;
   position: absolute;
   right: 0;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-right: 18rem; }
 
 .content-area {
   border-right: 1px solid #e1e1e1;
