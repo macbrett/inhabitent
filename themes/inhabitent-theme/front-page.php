@@ -24,6 +24,25 @@ get_header(); ?>
 
       <?php endwhile; // End of the loop. ?>
 
+<h2>Inhabitent Journal</h2>
+
+<?php
+   $args = array( 'post_type' => 'post', 'order' => 'ASC','posts_per_page' => 3);
+   $journal_posts = get_posts( $args ); // returns an array of posts
+?>
+<?php foreach ( $journal_posts as $post ) : setup_postdata( $post ); ?>
+
+<?php the_post_thumbnail(["200px,200px"] ); ?>
+<a href="<?php the_permalink(); ?>"</a>
+
+   <div class="front-page-posts">
+    <?php the_meta(); ?><br>
+     <?php the_date(); ?><br>
+      <?php the_title(); ?><br>
+
+</div>
+<?php endforeach; wp_reset_postdata(); ?>
+
 <h2>Latest Adventures</h2>
 <section class="latest-adventures">
 

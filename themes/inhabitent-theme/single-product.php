@@ -26,6 +26,7 @@ get_header(); ?>
         endif;
       ?>
 <?php echo CFS()->get( 'product_price' ); ?>
+
     <?php endwhile; // End of the loop. ?>
 
 
