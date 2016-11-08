@@ -606,18 +606,35 @@ a {
   padding-right: 5%;
   width: 100%; }
 
+/*.home-hero {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: linear-gradient(180deg,rgba(0,0,0,.4)
+    0,rgba(0,0,0,.4)),#969696 url('../../images/hero-image/home-hero.jpg') no-repeat top;
+    background-size: cover,cover;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100vh;
+    }*/
 .home-hero {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("../../images/logos/inhabitent-logo-full.svg") no-repeat center, url("../../images/hero-image/home-hero.jpg");
   -ms-flex-align: center;
   align-items: center;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url("../../images//hero-image/home-hero.jpg") no-repeat top;
-  background-size: cover,cover;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 100vh; }
+  height: 70vh; }
 
 .logo-header {
   background: url("http://images.clipartpanda.com/tent-clipart-black-and-white-white-black-tent-hi.png"); }
@@ -858,6 +875,15 @@ object {
   text-transform: uppercase;
   color: white; }
 
+.latest-adventures {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  width: 100%;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
 .canoe-girl {
   background: url("../../images/adventure-photos/canoe-girl.jpg");
   height: 300px;
@@ -882,11 +908,20 @@ object {
   margin-bottom: 0.5%;
   margin-left: 0.5%; }
 
+.bundle1 {
+  background-size: cover;
+  display: block;
+  margin-right: 0.5%;
+  margin-bottom: 0.5%;
+  margin-left: 0.5%; }
+
+.bundle2 {
+  display: -ms-flexbox;
+  display: flex; }
+
 .mountain-hikers {
   background: url("../../images/adventure-photos/mountain-hikers.jpg");
   height: 300px;
-  -ms-flex: 2 1 49%;
-      flex: 2 1 49%;
   background-size: cover;
   display: -ms-flexbox;
   display: flex;

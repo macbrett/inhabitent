@@ -1,5 +1,8 @@
 .latest-adventures{
-
+ display:flex;
+    flex-flow:row wrap;
+    width:100%;
+    justify-content:center;
 
 }
 
@@ -29,11 +32,24 @@ height:300px;
 
 }
 
+.bundle1{
+
+    background-size:cover;
+    display:block;
+    margin-right:0.5%;
+    margin-bottom:0.5%;
+    margin-left:0.5%;
+}
+
+.bundle2{
+    display:flex;
+}
+
 .mountain-hikers{
   background:
     url('../../images/adventure-photos/mountain-hikers.jpg');
 height:300px;
- flex:2 1 49%;
+
     background-size:cover;
     display:flex;
     margin-right:0.5%;
@@ -53,6 +69,3 @@ height:300px;
     margin-left:0.5%;
 }
 
-.night-sky{
-
-}

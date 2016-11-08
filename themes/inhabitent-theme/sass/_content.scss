@@ -70,11 +70,12 @@ font-family: Novecento Sans Web,sans-serif;
     padding-right: 5%;
     width: 100%;
 }
- .home-hero {
+/*.home-hero {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url('../../images//hero-image/home-hero.jpg') no-repeat top;
+    background: linear-gradient(180deg,rgba(0,0,0,.4)
+    0,rgba(0,0,0,.4)),#969696 url('../../images/hero-image/home-hero.jpg') no-repeat top;
     background-size: cover,cover;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -86,7 +87,28 @@ font-family: Novecento Sans Web,sans-serif;
     -ms-flex-pack: center;
     justify-content: center;
     height: 100vh;
-    }
+    }*/
+
+    .home-hero{
+    background: linear-gradient( to bottom,
+    rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),
+    url('../../images/logos/inhabitent-logo-full.svg') no-repeat center,
+    url('../../images/hero-image/home-hero.jpg') ;
+
+  -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+     display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 70vh;
+}
 
     .logo-header{
     background:  url('http://images.clipartpanda.com/tent-clipart-black-and-white-white-black-tent-hi.png')
