@@ -26,23 +26,7 @@ get_header(); ?>
       <?php endwhile; // End of the loop. ?>
 
 
-$terms = get_terms( array(
-    'taxonomy' => 'post_tag',
-    'hide_empty' => false,
-) );
 
-<?php
-
-$id = get_the_ID();
-$taxonomy = 'your-taxonomy';
-$terms = get_the_terms( $id, $taxonomy );
-foreach ($terms as $term){
-
-  // Here you can display the terms how you want
-
-  echo 'TERM: '.$term->name;
-}
-?>
 
 
 
@@ -62,16 +46,13 @@ foreach ($terms as $term){
 
 <?php foreach ( $journal_posts as $post ) : setup_postdata( $post ); ?>
 
-
-<?php the_post_thumbnail(["200px,200px"] ); ?>
+<!-- put the size here in the thumbnaill as arg-->
+<?php the_post_thumbnail(); ?>
 <a href="<?php the_permalink(); ?>"</a>
 
    <div class="front-page-posts">
-    <?php the_meta(); ?><br>
      <?php the_date(); ?><br>
       <?php the_title(); ?><br>
-      <?php get_the_term_list( $id, $taxonomy, $before, $sep, $after ) ?>
-      <?php get_the_term_list( $post->ID, 'taxname', '', ', ', '');?>
 
   </div>
 </div>
