@@ -3,15 +3,35 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-
-
-     -webkit-justify-content: space-between;
+    -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    margin-bottom: 1.5rem;
+    width:100%;
+    flex-wrap:wrap;
+
+
+
+}
+
+.product-grid-item {
+
+        /* border: 1px solid #e1e1e1; */
+    -webkit-flex: 0 1 23%;
+    -ms-flex: 0 1 23%;
+    /* flex: 0 1 23%; */
+    /* max-width: 23%; */
     margin-bottom: 1.5rem;
 
 
 }
-.product-grid-item{
+
+.product-grid-item img{
+    left: 50%;
+    max-height: 250px;
+    width:auto;
 
 }
+
+
+

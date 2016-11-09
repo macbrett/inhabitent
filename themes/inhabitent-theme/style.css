@@ -330,8 +330,7 @@ dd {
   margin: 0 1.5em 1.5em; }
 
 img {
-  height: auto;
-  /* Make sure images are scaled correctly. */
+  /*height: auto; /* Make sure images are scaled correctly. */
   max-width: 100%;
   /* Adhere to container width. */ }
 
@@ -937,4 +936,20 @@ object {
   display: flex;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.product-grid-item {
+  /* border: 1px solid #e1e1e1; */
+  -webkit-flex: 0 1 23%;
+  -ms-flex: 0 1 23%;
+  /* flex: 0 1 23%; */
+  /* max-width: 23%; */
   margin-bottom: 1.5rem; }
+
+.product-grid-item img {
+  left: 50%;
+  max-height: 250px;
+  width: auto; }
