@@ -1,7 +1,13 @@
+<?php /* Template Name: About Page */ ?>
+
+
+
+
 <?php
 get_header(); ?>
+<div class="about-hero">
 
-
+</div>
 
 <div class="about">
 <h1>About</h1>

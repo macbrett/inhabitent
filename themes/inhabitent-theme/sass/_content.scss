@@ -4,44 +4,40 @@
 
 /* Posts and pages */
 
+.about-hero{
+    height:100vh;
+    background-size:cover;
 
+}
 .site-content {
     display: -webkit-flex;
     display: -ms-flexbox;
-
     margin-left: auto;
     margin-right: auto;
     width: 1120px;
     padding-top: 50px;
 }
- .content-area{
- border-right: 1px solid #e1e1e1;
-    padding-right: 5%;
 
+ .content-area {
+    border-right: 1px solid #e1e1e1;
+    padding-right: 5%;
 }
 
 .header-wrap img{
-
     height: auto;
     max-width: 100%;
-
 }
-
 
 .type-post .entry-header{
   line-height: 0;
     position: relative;
-
 }
+
  .type-post .entry-title {
 
-
-font-family: Novecento Sans Web,sans-serif;
-
+    font-family: Novecento Sans Web,sans-serif;
     position: absolute;
     font-weight: 600;
-
-
     background-color: #248a83;
     text-transform:uppercase;
      padding: .75rem 1.5rem;
@@ -50,10 +46,9 @@ font-family: Novecento Sans Web,sans-serif;
     top: 0;
     text-align:left;
     text-decoration:none;
-
 }
 
- .type-post .entry-meta{
+ .type-post .entry-meta {
    background-color: #248a83;
     bottom: 0;
     color: #fff;
@@ -67,20 +62,19 @@ font-family: Novecento Sans Web,sans-serif;
     }
 
 
-.content-area{
+.content-area {
     border-right: 1px solid #e1e1e1;
     padding-right: 5%;
     width: 100%;
 }
 
 
-    .home-hero{
+.home-hero {
     background: linear-gradient( to bottom,
     rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),
     url('../../images/logos/inhabitent-logo-full.svg') no-repeat center,
     url('../../images/hero-image/home-hero.jpg') ;
-
-  -webkit-align-items: center;
+    -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
      display: -webkit-flex;
@@ -95,11 +89,9 @@ font-family: Novecento Sans Web,sans-serif;
     height: 70vh;
 }
 
-    .logo-header{
+.logo-header{
     background:  url('http://images.clipartpanda.com/tent-clipart-black-and-white-white-black-tent-hi.png')
     }
-
-
 
 .sticky {
 	display: block;

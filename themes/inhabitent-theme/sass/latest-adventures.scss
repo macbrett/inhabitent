@@ -1,8 +1,16 @@
 .latest-adventures{
  display:flex;
-    flex-flow:row wrap;
+    flex-flow:row;
     width:100%;
-    justify-content:center;
+    justify-content:space-between;
+
+}
+.inhabitent-journal-container{
+    display:block;
+
+}
+
+.front-page-posts{
 
 }
 
@@ -63,8 +71,8 @@ margin-top:3%;
 .night-sky{
   background:
     url('../../images/adventure-photos/night-sky.jpg');
-height:300px;
- flex:2 1 48%;
+    height:300px;
+    flex:2 1 48%;
     background-size:cover;
     display:flex;
     margin-right:0.5%;

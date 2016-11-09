@@ -557,6 +557,10 @@ a {
 # Content
 --------------------------------------------------------------*/
 /* Posts and pages */
+.about-hero {
+  height: 100vh;
+  background-size: cover; }
+
 .site-content {
   display: -ms-flexbox;
   margin-left: auto;
@@ -860,11 +864,14 @@ object {
 .latest-adventures {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
+  -ms-flex-flow: row;
+      flex-flow: row;
   width: 100%;
-  -ms-flex-pack: center;
-      justify-content: center; }
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.inhabitent-journal-container {
+  display: block; }
 
 .canoe-girl {
   background: url("../../images/adventure-photos/canoe-girl.jpg");
@@ -924,3 +931,10 @@ object {
   margin-right: 0.5%;
   margin-left: 3%;
   margin-top: 3%; }
+
+.product-grid {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 1.5rem; }
