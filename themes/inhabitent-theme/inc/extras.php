@@ -49,3 +49,36 @@ function tent_styles_method() {
       wp_add_inline_style( 'red-starter-style', $custom_css );
 }
 add_action( 'wp_enqueue_scripts', 'tent_styles_method' );
+
+/*set posts to 16*/
+
+function get_all_product_posts ($query) {
+  if ( is_post_type_archive('product') && !is_admin() && $query->is_main_query()){
+    $query->set('posts_per_page', '16');
+    $query->set('orderby', 'title');
+    $query->set('order', 'ASC' );
+
+  }
+
+}
+add_action( 'pre_get_posts', 'get_all_product_posts');
+
+/*is_tax.....*/
+
+
+function display_custom_archive_title($title){
+
+if(is_post_type_archive('product')){
+
+  $title = "Shop Stuff";
+}
+
+  return $title;
+
+      }
+
+add_filter( 'get_the_archive_title', 'display_custom_archive_title');
+
+
+
+

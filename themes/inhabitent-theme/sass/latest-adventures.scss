@@ -10,8 +10,47 @@
 
 }
 
-.front-page-posts{
+.adventure-photos{
+        margin: 1.5rem;
 
+
+}
+
+.adventure-photos a{
+font-family: Merriweather Web,serif;
+    font-weight: 400;
+    margin-top: 24px;
+    font-size:12px;
+    text-transform: none;
+    text-decoration:none;
+    color: #fff;
+
+}
+
+.adventure-photos a:hover{
+
+    color: #f0e4d1;
+
+}
+
+.white-button{
+      background-color:transparent;
+    color:black;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    font-family: Novecento Sans Web,sans-serif;
+    font-size: 14.4px;
+    font-size: .9rem;
+    line-height: 1;
+    padding: .75rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+        border: 1px solid #000;
+    color: #000;
+
+margin-top: 1.75rem;
 }
 
 .canoe-girl{

@@ -15,10 +15,45 @@ get_header(); ?>
       <header class="page-header">
         <?php
           the_archive_title( '<h1 class="page-title">', '</h1>' );
-          the_archive_description( '<div class="taxonomy-description">', '</div>' );
+
+
         ?>
 
       </header><!-- .page-header -->
+
+
+<section class = "product-info">
+
+        <div class = "product-type-blocks">
+
+
+       <?php
+          $terms = get_terms(array(
+            'taxonomy' => 'product-type',
+            'hide_empty' => false
+          ));
+
+           foreach ($terms as $term): ?>
+
+<div class = "product-type-blocks-wrapper">
+
+
+<?php echo $term->description ?>
+
+     <a href="product-type/<?php echo $term->slug;?> "><?php echo $term->name ?></a>
+</div>
+<?php endforeach; ?>
+
+</div>
+</section>
+
+
+
+
+
+
+
+
 
 <div class="product-grid">
 <?php /* Start the Loop */ ?>
