@@ -25,9 +25,16 @@
   text-transform:uppercase;
   font-size:1.5rem;
   position:relative;
+  text-shadow: 1px 1px 2px black;
 
 }
 
+.about-content {
+margin: 3rem auto;
+    max-width: 800px;
+
+
+}
 .about-content h2{
 
   text-align:center;
@@ -36,4 +43,9 @@
     font-size: 33.6px;
     font-size: 2.1rem;
     margin-bottom: 1.5rem;
+}
+
+.about-content p{
+
+  font-size:20px;
 }

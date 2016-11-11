@@ -22,14 +22,10 @@ We want to bridge the gap between the comfort of city life and the lovely Instag
 </p>
 <h2>our team</h2>
 <p>
-  Inhabitent Camping Supply Co.’s staff is made up of an amazing team of inspired retail associates. We really know our stuff when it comes to travel hammocks and campfire cooking gadgets. From a provincial park campground to the back-country, our staff knows what you need to outfit your outdoor outing.
+  Inhabitent Camping Supply Co.’s staff is made up of an amazing team of inspired retail associates. We really know our stuff when it comes to travel hammocks and campfire cooking gadgets. From a provincial park campground to the back-country, our staff knows what you need to outfit your outdoor outing.<br>
 
 Our shop in nestled away in a lovely little corner of Vancouver. Pop in, say hi, and try out our tents!
-
-
 </p>
-
-
 </div>
 
 <?php get_footer(); ?>

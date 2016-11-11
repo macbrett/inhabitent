@@ -229,11 +229,20 @@ textarea {
   font-family: sans-serif;
   font-size: 16px;
   font-size: 1rem;
-  line-height: 1.5; }
+  line-height: 1.5;
+  color: #404040;
+  font-family: Merriweather Web,serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.75; }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  clear: both; }
+  clear: both;
+  clear: both;
+  font-family: Novecento Sans Web,sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
 
 /* Copy */
 p {
@@ -1132,7 +1141,12 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   font-size: 1.5rem;
-  position: relative; }
+  position: relative;
+  text-shadow: 1px 1px 2px black; }
+
+.about-content {
+  margin: 3rem auto;
+  max-width: 800px; }
 
 .about-content h2 {
   text-align: center;
@@ -1141,3 +1155,6 @@ h3 {
   font-size: 33.6px;
   font-size: 2.1rem;
   margin-bottom: 1.5rem; }
+
+.about-content p {
+  font-size: 20px; }

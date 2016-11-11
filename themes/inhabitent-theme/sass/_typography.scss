@@ -11,12 +11,22 @@ textarea {
 	font-family: $font__main;
 	@include font-size(1);
 	line-height: $font__line-height-body;
+    color: #404040;
+    font-family: Merriweather Web,serif;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.75;
+
 }
 
 /* Headings */
 
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
+	clear: both;
+    font-family: Novecento Sans Web,sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 /* Copy */
