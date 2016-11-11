@@ -552,10 +552,6 @@ a {
 # Content
 --------------------------------------------------------------*/
 /* Posts and pages */
-.about-hero {
-  height: 100vh;
-  background-size: cover; }
-
 .site-content {
   display: -ms-flexbox;
   margin-left: auto;
@@ -597,9 +593,7 @@ a {
   margin-right: 18rem; }
 
 .content-area {
-  padding-right: 5%;
-  width: 100%;
-  padding-left: 5%; }
+  width: 100%; }
 
 .home-hero {
   background: url("../../images/hero-image/home-hero.jpg");
@@ -721,8 +715,6 @@ object {
 # Header
 --------------------------------------------------------------*/
 .site-header {
-  background-color: rgba(255, 255, 255, 0.85);
-  border-bottom: 1px solid #e1e1e1;
   position: fixed;
   text-shadow: 1px 1px 2px #323232;
   transition: top .5s linear;
@@ -924,7 +916,12 @@ fieldset {
   margin-right: 1%;
   margin-bottom: 0.5%;
   margin-left: 0.5%;
-  height: 540px; }
+  height: 540px;
+  background: cover; }
+
+.canoe-girl a {
+  background-color: yellow;
+  font-size: 44px; }
 
 .beach-bonfire {
   background: url("../../images/adventure-photos/beach-bonfire.jpg");
@@ -936,7 +933,11 @@ fieldset {
   display: flex;
   margin-right: 0.5%;
   margin-bottom: 1%;
-  margin-left: 0.5%; }
+  margin-left: 0.5%;
+  background: cover; }
+
+.beach-bonfire a {
+  font-size: 33px; }
 
 .bundle1 {
   background-size: cover;
@@ -959,7 +960,11 @@ fieldset {
   display: flex;
   margin-right: 0.5%;
   margin-top: 3%;
-  margin-left: 1%; }
+  margin-left: 1%;
+  background: cover; }
+
+.mountain-hikers a {
+  font-size: 22px; }
 
 .night-sky {
   background: url("../../images/adventure-photos/night-sky.jpg");
@@ -971,7 +976,11 @@ fieldset {
   display: flex;
   margin-right: 0.5%;
   margin-left: 3%;
-  margin-top: 3%; }
+  margin-top: 3%;
+  background: cover; }
+
+.night-sky a {
+  font-size: 22px; }
 
 .product-grid {
   display: -ms-flexbox;
@@ -984,7 +993,6 @@ fieldset {
       flex-wrap: wrap; }
 
 .product-grid-item {
-  /* border: 1px solid #e1e1e1; */
   -webkit-flex: 0 1 23%;
   -ms-flex: 0 1 23%;
   /* flex: 0 1 23%; */
@@ -1047,23 +1055,27 @@ fieldset {
   text-align: left; }
 
 .journal-blocks-wrapper {
-  border: 1px solid #e1e1e1;
   border-top-width: 5px;
   -ms-flex: 0 1 23.5%;
   flex: 0 1 33.3%;
   padding: .75rem; }
 
+.journal-blocks-wrapper:last-child .entry-title {
+  background-color: yellow;
+  padding-bottom: 1; }
+
 .journal-blocks-wrapper img {
   margin-left: auto;
   margin-right: auto;
   height: 300px;
-  width: 300px; }
+  width: 100%; }
 
 .data-wrapper {
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
+  border: solid;
   padding: .75rem; }
 
 .journal-blocks-wrapper a {
@@ -1101,3 +1113,31 @@ h3 {
   margin-top: 3;
   color: #248a83;
   text-decoration: none; }
+
+.about-hero {
+  color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100vh;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  background: no-repeat center bottom;
+  background-size: cover, cover; }
+
+.about-hero-title {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  position: relative; }
+
+.about-content h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #2f1339;
+  font-size: 33.6px;
+  font-size: 2.1rem;
+  margin-bottom: 1.5rem; }

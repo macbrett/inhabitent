@@ -1,6 +1,5 @@
 .product-type-blocks{
-
-      display: -webkit-flex;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-justify-content: space-between;
@@ -10,7 +9,6 @@
 }
 
 .product-type-blocks-wrapper{
-
     border: 1px solid #e1e1e1;
     border-top-width: 5px;
     -webkit-flex: 0 1 23.5%;
@@ -21,29 +19,24 @@
 }
 
 .blocks-wrapper-image img{
-
-      height: 70px;
+    height: 70px;
     width: 70px;
-
 }
 
 .description{
-padding-bottom:1rem;
-
+    padding-bottom:1rem;
 }
 
 .term-name{
-padding-bottom:1rem;
-
+    padding-bottom:1rem;
 }
-.product-types-blocks-wrapper img{
 
-      height: 70px;
+.product-types-blocks-wrapper img{
+    height: 70px;
     width: 70px;
 }
 
 .product-type-blocks-wrapper a {
-
     background: #248a83;
     border: none;
     border-radius: 0;

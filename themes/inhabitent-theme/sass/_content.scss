@@ -4,11 +4,7 @@
 
 /* Posts and pages */
 
-.about-hero{
-    height:100vh;
-    background-size:cover;
 
-}
 .site-content {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -17,8 +13,6 @@
     width: 1120px;
     padding-top: 50px;
 }
-
-
 
 .header-wrap img{
     height: auto;
@@ -61,19 +55,14 @@
 
 .content-area {
 
-    padding-right: 5%;
     width: 100%;
-    padding-left:5%;
+
 }
 
 
 .home-hero {
     background:
-
     url('../../images/hero-image/home-hero.jpg');
-
-
-
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
@@ -94,7 +83,6 @@
 .logo-header{
     background:  url('http://images.clipartpanda.com/tent-clipart-black-and-white-white-black-tent-hi.png')
     }
-
 
 .sticky {
 	display: block;

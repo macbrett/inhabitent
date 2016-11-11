@@ -1,0 +1,39 @@
+
+
+
+.about-hero{
+
+    color: #fff;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100vh;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    background: no-repeat center bottom;;
+    background-size: cover, cover;
+
+}
+.about-hero-title{
+  color:white;
+  text-align:center;
+  text-transform:uppercase;
+  font-size:1.5rem;
+  position:relative;
+
+}
+
+.about-content h2{
+
+  text-align:center;
+  text-transform:uppercase;
+  color: #2f1339;
+    font-size: 33.6px;
+    font-size: 2.1rem;
+    margin-bottom: 1.5rem;
+}

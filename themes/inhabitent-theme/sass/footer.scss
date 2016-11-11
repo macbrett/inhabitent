@@ -2,7 +2,6 @@
 # Footer
 --------------------------------------------------------------*/
  .container{
-
     margin-left: auto;
     margin-right: auto;
     width: 1120px;
@@ -10,32 +9,30 @@
   }
 
 .site-footer{
-background: url('../../images/footer-background/dark-wood.png');
+    background: url('../../images/footer-background/dark-wood.png');
     background-size: 512px 512px;
-          color: #fff;
+    color: #fff;
 
 }
 
 .footer-blocks{
-display: -webkit-flex;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-        margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     width: 1120px;
     font-family: 'Merriweather Web',serif;
-
-
     line-height: 1.75;
 
 }
 
 .footer-block-item{
-
     margin: 3rem 0;
     padding-right: 1.5rem;
     width: 25%;
 }
+
 .footer-block-item a{
     text-decoration:none;
     color:white;
@@ -69,9 +66,7 @@ display: -webkit-flex;
     color:white;
 }
 
-.contact{
 
-}
 .footer-block-item:last-child {
     padding-right: 0;
     width: 50%;
