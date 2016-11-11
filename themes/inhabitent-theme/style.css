@@ -991,6 +991,33 @@ fieldset {
 .night-sky a {
   font-size: 22px; }
 
+.product-page-header {
+  border-bottom: 1px dashed #c8c8c8;
+  margin-bottom: 3rem;
+  text-align: center;
+  margin-top: 3rem; }
+
+.product-type-list {
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Novecento Sans Web,sans-serif;
+  font-size: 19.2px;
+  font-size: 1.2rem;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  text-transform: uppercase; }
+
+.ind-product-type {
+  margin: 0 1.5rem;
+  margin-bottom: 1.5rem; }
+
+.ind-product-type a {
+  text-decoration: none;
+  color: green; }
+
 .product-grid {
   display: -ms-flexbox;
   display: flex;
@@ -1012,6 +1039,9 @@ fieldset {
   left: 50%;
   max-height: 250px;
   width: auto; }
+
+.product-grid-item a {
+  text-decoration: none; }
 
 .product-type-blocks {
   display: -ms-flexbox;

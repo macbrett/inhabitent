@@ -12,18 +12,14 @@ get_header(); ?>
 
       <?php if ( have_posts() ) : ?>
 
-      <header class="page-header">
+  <header class="product-page-header">
         <?php
           the_archive_title( '<h1 class="page-title">', '</h1>' );
                 ?>
 
-      </header><!-- .page-header -->
+      <div class = "product-type-list">
 
-
-  <section class = "product-info">
-    <div class = "product-type-blocks">
-
-      <?php
+            <?php
           $terms = get_terms(array(
             'taxonomy' => 'product-type',
             'hide_empty' => false
@@ -31,18 +27,16 @@ get_header(); ?>
 
            foreach ($terms as $term): ?>
 
-      <div class = "product-type-blocks-wrapper">
+            <div class="ind-product-type">
 
+                <a href="<?php echo get_term_link($term) ?>"><?php echo $term->name ?></a>
 
-        <?php echo $term->description ?>
-
-        <a href="<?php echo get_term_link($term) ?>"><?php echo $term->name ?></a>
-      </div>
-
+            </div>
       <?php endforeach; ?>
 
-    </div>
-  </section>
+  </div>
+
+  </header><!-- .page-header -->
 
 
 
@@ -50,11 +44,16 @@ get_header(); ?>
       <?php /* Start the Loop */ ?>
 
       <?php while ( have_posts() ) : the_post(); ?>
+
       <div class="product-grid-item">
 
-      <?php get_template_part( 'template-parts/content' );?>
+      <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
 
-      <?php echo CFS()->get( 'product_price' ); ?>
+        <div class="product-grid-item-info">
+          <div class="title"><?php the_title(); ?></div>
+          <div class="price"><?php echo CFS()->get( 'product_price' ); ?>
+        </div>
+      </div>
 
     </div>
 
