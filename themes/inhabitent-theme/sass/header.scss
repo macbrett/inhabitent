@@ -72,7 +72,7 @@ font-family: Novecento Sans Web,sans-serif;
 
 }
 .menu-main-navigation-container{
-
+height:20px;
 }
 .main-navigation ul{
       display: block;
@@ -93,5 +93,34 @@ font-family: Novecento Sans Web,sans-serif;
 .header-search {
     line-height: 1;
     padding-left: 1.5rem;
+
+    }
+
+.search-submit{
+
+    color:blue;
 }
+
+
+fieldset {
+    border: 1px solid #c0c0c0;
+
+
+    padding-top:px;
+    padding-bottom:10pxs;
+        display: block;
+    -webkit-margin-start: 5px;
+    -webkit-margin-end: 2px;
+
+    min-width: -webkit-min-content;
+
+
+}
+
+
+
+
+
+
+
 

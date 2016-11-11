@@ -18,10 +18,7 @@
     padding-top: 50px;
 }
 
- .content-area {
-    border-right: 1px solid #e1e1e1;
-    padding-right: 5%;
-}
+
 
 .header-wrap img{
     height: auto;
@@ -63,17 +60,20 @@
 
 
 .content-area {
-    border-right: 1px solid #e1e1e1;
+
     padding-right: 5%;
     width: 100%;
+    padding-left:5%;
 }
 
 
 .home-hero {
-    background: linear-gradient( to bottom,
-    rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),
-    url('../../images/logos/inhabitent-logo-full.svg') no-repeat center,
-    url('../../images/hero-image/home-hero.jpg') ;
+    background:
+
+    url('../../images/hero-image/home-hero.jpg');
+
+
+
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
@@ -86,7 +86,9 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    height: 70vh;
+    height: 200vh;
+    background-size: cover;
+    width:100%;
 }
 
 .logo-header{
@@ -124,6 +126,8 @@
 	margin: 0 0 $base__space-unit;
 }
 
+
+
 /* Asides */
 
 .blog .format-aside .entry-title,
@@ -139,3 +143,6 @@
 .bypostauthor {
 	display: block;
 }
+
+
+

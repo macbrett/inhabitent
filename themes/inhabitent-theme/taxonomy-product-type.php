@@ -21,34 +21,6 @@ get_header(); ?>
 
       </header><!-- .page-header -->
 
-
-<section class = "product-info">
-
-        <div class = "product-type-blocks">
-
-
-       <?php
-          $terms = get_terms(array(
-            'taxonomy' => 'product-type',
-            'hide_empty' => false
-          ));
-
-           foreach ($terms as $term): ?>
-
-<div class = "product-type-blocks-wrapper">
-
-
-<?php echo $term->description ?>
-
-     <a href="<?php echo get_term_link($term) ?>"><?php echo $term->name ?></a>
-</div>
-<?php endforeach; ?>
-
-</div>
-</section>
-
-
-
 <div class="product-grid">
 <?php /* Start the Loop */ ?>
 

@@ -13,7 +13,10 @@ get_header(); ?>
     <main id="main" class="site-main" role="main">
     <section class="home-hero">
 
-<div class="logo-header">
+    <div class="home-hero">
+<img src="<?php echo get_template_directory_uri() . '/images/logos/inhabitent-logo-full.svg'; ?>" />
+    </div>
+
 
 </div>
     </section>
@@ -44,7 +47,7 @@ get_header(); ?>
      <?php echo $term->description ?>
 </div>
 <div class="term-name">
-     <a href="product-type/<?php echo $term->slug;?> "><?php echo $term->name ?></a>
+     <a href="<?php echo get_term_link($term) ?> "><?php echo $term->name ?></a>
      </div>
 </div>
 <?php endforeach; ?>

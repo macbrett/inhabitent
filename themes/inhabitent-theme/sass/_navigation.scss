@@ -28,8 +28,9 @@ a {
 
 .main-navigation {
 	clear: both;
-	display: block;
-	float: left;
+	display: flex;
+	float: right;
+
 	//removed width 100%
 
 
@@ -101,6 +102,9 @@ a {
 .main-navigation.toggled ul {
 	display: block;
 }
+
+
+
 
 @media screen and (min-width: 37.5em) {
 	.menu-toggle {
