@@ -16,20 +16,26 @@ get_header(); ?>
     <main id="main" class="site-main" role="main">
 
 
-
-        <?php while ( have_posts() ) : the_post(); ?>
-
-
-
+    <?php while ( have_posts() ) : the_post(); ?>
+<div class="single-content-area">
+    <div class="single-image-wrapper">
         <?php if ( has_post_thumbnail() ) : ?>
-      <?php the_post_thumbnail( 'large' ); ?>
-    <?php endif; ?>
+        <?php the_post_thumbnail( 'large' ); ?>
+        <?php endif; ?>
+    </div>
 
+    <div class="single-content-wrapper">
         <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 
-<div class="entry-content">
-    <?php the_excerpt(); ?>
-  </div><!-- .entry-content -->
+
+      <div>
+        <?php echo CFS()->get( 'product_price' ); ?>
+      </div>
+
+      <div class="entry-content">
+        <?php the_excerpt(); ?>
+      </div><!-- .entry-content -->
+
           <?php
           // If comments are open or we have at least one comment, load up the comment template.
             if ( comments_open() || get_comments_number() ) :
@@ -37,13 +43,12 @@ get_header(); ?>
             endif;
           ?>
 
-        <div>
-          <?php echo CFS()->get( 'product_price' ); ?>
-        </div>
 
-    <?php endwhile; // End of the loop. ?>
+</div>
+      </div>
+        <?php endwhile; // End of the loop. ?>
+      </div>
     </div>
-  </div>
 
     </main><!-- #main -->
   </div><!-- #primary -->

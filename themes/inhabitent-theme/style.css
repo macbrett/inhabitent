@@ -1157,6 +1157,18 @@ h3 {
   color: #248a83;
   text-decoration: none; }
 
+/*--------------------------------------------------------------
+# Single-Product
+--------------------------------------------------------------*/
+.single-content-area {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
 .about-hero {
   color: #fff;
   display: -ms-flexbox;
@@ -1192,17 +1204,3 @@ h3 {
 
 .about-content p {
   font-size: 20px; }
-
-/*--------------------------------------------------------------
-# Single-Product
---------------------------------------------------------------*/
-.single-content-area {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  padding-left: 3rem; }
-
-.single-content {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
