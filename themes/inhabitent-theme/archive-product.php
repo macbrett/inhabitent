@@ -50,11 +50,10 @@ get_header(); ?>
       <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
 
         <div class="product-grid-item-info">
-          <div class="title"><?php the_title(); ?></div>
+          <div class="title"><?php the_title(); ?></div>...............
           <div class="price"><?php echo CFS()->get( 'product_price' ); ?>
+          </div>
         </div>
-      </div>
-
     </div>
 
       <?php endwhile; ?>
