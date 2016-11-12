@@ -108,26 +108,52 @@ get_header(); ?>
 <section class="latest-adventures">
 
             <div class="canoe-girl">
-                <span class="adventure-photos"><a href="#">Getting Back to Nature in a Canoe</a></span>
+                <span class="adventure-photos">
 
+                <div class="adventure-info">
+                  <a href="">Getting Back to Nature in a Canoe</a></span>
+                    <div>
+                      <button class="adventure-button"><a href="">read more</a></button>
+                    </div>
+                </div>
             </div>
         <div class="bundle1">
             <div class="beach-bonfire">
-                <span class="adventure-photos"><a href="#">A Night with Friends at the Beach</a></span>
+                <span class="adventure-photos">
+                  <div class="adventure-info">
+                  <a href="#">A Night with Friends at the Beach</a>
 
+                </span>
+                <div>
+                  <button class="adventure-button"><a href="">read more</a></button>
+                </div>
+                </div>
             </div>
-        <div class="bundle2">
-            <div class="mountain-hikers">
-                <span class="adventure-photos"><a href="#">Taking in the View at Big Mountain</a></span>
 
-            </div>
-            <div class="night-sky">
-                <span class="adventure-photos"><a href="#">Star-Gazing at the Night Sky</a></span>
-
+                <div class="bundle2">
+                    <div class="mountain-hikers">
+                      <span class="adventure-photos">
+                          <div class="adventure-info">
+                          <a href="#">Taking in the View at Big Mountain</a>
+                      </span>
+                      <div>
+                  <button class="adventure-button"><a href="">read more</a></button>
+                </div>
+                      </div>
+                    </div>
+                    <div class="night-sky">
+                      <span class="adventure-photos">
+                        <div class="adventure-info">
+                          <a href="#">Star-Gazing at the Night Sky</a>
+                      </span>
+                      <div>
+                  <button class="adventure-button"><a href="">read more</a></button>
+                </div>
+                    </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
 
 
 </section>

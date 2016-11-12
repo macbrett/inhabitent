@@ -891,7 +891,13 @@ object {
 .adventure-photos a:hover {
   color: #f0e4d1; }
 
-.white-button {
+.adventure-info {
+  display: block; }
+
+.adventure-button {
+  background: transparent; }
+
+.adventure-info .adventure-button a {
   background-color: transparent;
   color: black;
   border: none;
@@ -902,17 +908,18 @@ object {
   font-size: 14.4px;
   font-size: .9rem;
   line-height: 1;
-  padding: .75rem 1.5rem;
   text-decoration: none;
   text-transform: uppercase;
-  border: 1px solid #000;
   color: #000;
   margin-top: 1.75rem; }
 
+.adventure-button:hover {
+  background-color: #248a83; }
+
 .canoe-girl {
   background: url("../../images/adventure-photos/canoe-girl.jpg");
-  -ms-flex: 2 1 49%;
-      flex: 2 1 49%;
+  -ms-flex: 2 1 59%;
+      flex: 2 1 59%;
   background-size: cover;
   display: -ms-flexbox;
   display: flex;
@@ -923,7 +930,6 @@ object {
   background: cover; }
 
 .canoe-girl a {
-  background-color: yellow;
   font-size: 44px; }
 
 .beach-bonfire {
@@ -957,10 +963,8 @@ object {
 
 .mountain-hikers {
   background: url("../../images/adventure-photos/mountain-hikers.jpg");
-  height: 300px;
   background-size: cover;
-  display: -ms-flexbox;
-  display: flex;
+  display: flex 2 1 48%;
   margin-right: 0.5%;
   margin-top: 3%;
   margin-left: 1%;
@@ -984,6 +988,12 @@ object {
 
 .night-sky a {
   font-size: 22px; }
+
+.adventure-photos a h3 {
+  font-family: Novecento Sans Web,sans-serif; }
+
+h3 a:hover {
+  color: #f0e4d1; }
 
 .product-page-header {
   border-bottom: 1px dashed #c8c8c8;
