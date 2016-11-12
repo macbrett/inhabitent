@@ -5,6 +5,18 @@
     width: 1120px;
 }
 
+
+
+.journal-header{
+
+  font-size: 1.6rem;
+    font-weight: 100;
+    margin-bottom: 3.75rem;
+    text-align: center;
+
+
+}
+
 .journal-blocks{
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -15,6 +27,8 @@
     text-align: left;
 }
 
+
+
 .journal-blocks-wrapper{
     border-top-width: 5px;
     -webkit-flex: 0 1 23.5%;
@@ -24,11 +38,16 @@
 
 }
 
-.journal-blocks-wrapper:last-child .entry-title {
-    background-color: yellow;
-    padding-bottom:1;
+.thumbnail-wrapper{
+
+    background-color: #e1e1e1;
+
+    overflow: hidden;
+    position: relative;
 
 }
+
+
 
 .journal-blocks-wrapper img{
     margin-left: auto;
@@ -44,9 +63,14 @@
      flex-direction: column;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
-    border:solid;
+    border:1px solid #cccccc;
     padding: .75rem;
 
+}
+
+.data-wrapper .entry-meta{
+
+    font-size:15px;
 }
 
 .journal-blocks-wrapper a {
@@ -70,20 +94,28 @@ button{
     color: #fff;
     cursor: pointer;
     font-family: Novecento Sans Web,sans-serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 1;
     padding: .75rem 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
     border: 1px solid #000;
-    color: #000;
+    color: black;
 
 }
 
 .black-button{
-    margin-bottom: 3.75rem;
+
     bottom: .15rem;
     left: .15rem;
+    background-color: transparent;
+    color:black
+}
+
+.black-button a{
+   color:black;
+
+
 }
 
 h3 {
@@ -91,6 +123,7 @@ h3 {
     margin-top: 3;
     color: #248a83;
     text-decoration: none;
+    line-height: 1.25;
 }
 
 

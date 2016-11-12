@@ -867,6 +867,12 @@ object {
   margin-right: auto;
   width: 1120px; }
 
+.latest-adventures-header {
+  font-size: 1.6rem;
+  font-weight: 100;
+  margin-bottom: 3.75rem;
+  text-align: center; }
+
 .inhabitent-journal-container {
   display: block; }
 
@@ -1035,6 +1041,12 @@ object {
   display: -ms-flexbox;
   display: flex; }
 
+.product-header {
+  font-size: 1.6rem;
+  font-weight: 100;
+  margin-bottom: 3.75rem;
+  text-align: center; }
+
 .product-info {
   margin-left: auto;
   margin-right: auto;
@@ -1088,6 +1100,12 @@ object {
   margin-right: auto;
   width: 1120px; }
 
+.journal-header {
+  font-size: 1.6rem;
+  font-weight: 100;
+  margin-bottom: 3.75rem;
+  text-align: center; }
+
 .journal-blocks {
   display: -ms-flexbox;
   display: flex;
@@ -1101,9 +1119,10 @@ object {
   flex: 0 1 33.3%;
   padding: .75rem; }
 
-.journal-blocks-wrapper:last-child .entry-title {
-  background-color: yellow;
-  padding-bottom: 1; }
+.thumbnail-wrapper {
+  background-color: #e1e1e1;
+  overflow: hidden;
+  position: relative; }
 
 .journal-blocks-wrapper img {
   margin-left: auto;
@@ -1116,8 +1135,11 @@ object {
   flex-direction: column;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
-  border: solid;
+  border: 1px solid #cccccc;
   padding: .75rem; }
+
+.data-wrapper .entry-meta {
+  font-size: 15px; }
 
 .journal-blocks-wrapper a {
   line-height: 1.5;
@@ -1136,24 +1158,29 @@ button {
   color: #fff;
   cursor: pointer;
   font-family: Novecento Sans Web,sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1;
   padding: .75rem 1.5rem;
   text-decoration: none;
   text-transform: uppercase;
   border: 1px solid #000;
-  color: #000; }
+  color: black; }
 
 .black-button {
-  margin-bottom: 3.75rem;
   bottom: .15rem;
-  left: .15rem; }
+  left: .15rem;
+  background-color: transparent;
+  color: black; }
+
+.black-button a {
+  color: black; }
 
 h3 {
   text-align: left;
   margin-top: 3;
   color: #248a83;
-  text-decoration: none; }
+  text-decoration: none;
+  line-height: 1.25; }
 
 /*--------------------------------------------------------------
 # Single-Product

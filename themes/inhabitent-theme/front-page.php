@@ -29,7 +29,9 @@ get_header(); ?>
       <?php endwhile; // End of the loop. ?>
 
 <section class = "product-info">
-               <h1> Shop stuff </h1>
+              <div class="product-header">
+               <h2> shop stuff </h2>
+               </div>
         <div class = "product-type-blocks">
 
 
@@ -47,7 +49,7 @@ get_header(); ?>
      <?php echo $term->description ?>
 </div>
 <div class="term-name">
-     <a href="<?php echo get_term_link($term) ?> "><?php echo $term->name ?></a>
+     <a href="<?php echo get_term_link($term) ?> "><?php echo $term->name . " " . "stuff" ?></a>
      </div>
 </div>
 <?php endforeach; ?>
@@ -57,43 +59,52 @@ get_header(); ?>
 
 
 
-<section class="inhabitent-journal">
+  <section class="inhabitent-journal">
+      <div class="journal-header">
+          <h2>Inhabitent Journal</h2>
+      </div>
 
-<h2>Inhabitent Journal</h2>
+      <div class="journal-blocks">
+              <?php
+                $args = array( 'post_type' => 'post', 'order' => 'DESC','posts_per_page' => 3);
+                $journal_posts = get_posts( $args ); // returns an array of posts
+                ?>
 
-<div class="journal-blocks">
-<?php
-   $args = array( 'post_type' => 'post', 'order' => 'ASC','posts_per_page' => 3);
-   $journal_posts = get_posts( $args ); // returns an array of posts
-?>
+              <?php foreach ( $journal_posts as $post ) : setup_postdata( $post ); ?>
 
-<?php foreach ( $journal_posts as $post ) : setup_postdata( $post ); ?>
+          <div class="journal-blocks-wrapper">
 
-<div class="journal-blocks-wrapper">
-    <?php the_post_thumbnail(); ?>
+            <div class="thumbnail-wrapper">
+            <?php the_post_thumbnail(); ?>
+            </div>
 
-<div class="data-wrapper">
-  <span class="date">
-    <?php the_date(); ?>
-  </span>
-<h3 class="entry-title">
-    <a href="<?php the_permalink(); ?>">
-    <?php the_title(); ?></a>
-</h3>
-  <span class="the-title">
-  <button><a href="#" class="black-button">read entry</a></button>
-  </span>
+          <div class="data-wrapper">
+              <div class="entry-meta">
+                <?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?> / <?php red_starter_posted_by(); ?>
+              </div>
 
-</div>
-</div>
+              <h3 class="entry-title">
+                  <a href="<?php the_permalink(); ?>">
+                  <?php the_title(); ?></a>
+              </h3>
+
+              <span class="the-title">
+
+                  <button class="black-button"><a href="<?php the_permalink(); ?>">read entry</a></button>
+
+              </span>
+
+          </div>
+      </div>
 
 
 <?php endforeach; wp_reset_postdata(); ?>
 </div>
 </section>
 
-
+<div class="latest-adventures-header">
 <h2>Latest Adventures</h2>
+</div>
 <section class="latest-adventures">
 
             <div class="canoe-girl">
