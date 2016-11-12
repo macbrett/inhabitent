@@ -564,9 +564,7 @@ a {
 .site-content {
   display: -ms-flexbox;
   margin-left: auto;
-  margin-right: auto;
-  width: 1120px;
-  padding-top: 50px; }
+  margin-right: auto; }
 
 .header-wrap img {
   height: auto;
@@ -605,7 +603,7 @@ a {
   width: 100%; }
 
 .home-hero {
-  background: url("../../images/hero-image/home-hero.jpg");
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url("../../images/hero-image/home-hero.jpg") no-repeat top;
   -ms-flex-align: center;
   align-items: center;
   display: -ms-flexbox;
@@ -614,7 +612,7 @@ a {
   flex-direction: column;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 200vh;
+  height: 100vh;
   background-size: cover;
   width: 100%; }
 
@@ -783,18 +781,6 @@ object {
   line-height: 1;
   padding-left: 1.5rem; }
 
-.search-submit {
-  color: blue; }
-
-fieldset {
-  border: 1px solid #c0c0c0;
-  padding-top: px;
-  padding-bottom: 10pxs;
-  display: block;
-  -webkit-margin-start: 5px;
-  -webkit-margin-end: 2px;
-  min-width: -webkit-min-content; }
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -875,9 +861,11 @@ fieldset {
   display: flex;
   -ms-flex-flow: row;
       flex-flow: row;
-  width: 100%;
   -ms-flex-pack: justify;
-      justify-content: space-between; }
+      justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px; }
 
 .inhabitent-journal-container {
   display: block; }
@@ -1047,6 +1035,11 @@ fieldset {
   display: -ms-flexbox;
   display: flex; }
 
+.product-info {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px; }
+
 .product-type-blocks {
   display: -ms-flexbox;
   display: flex;
@@ -1089,6 +1082,11 @@ fieldset {
   padding: .75rem 1.5rem;
   text-decoration: none;
   text-transform: uppercase; }
+
+.inhabitent-journal {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px; }
 
 .journal-blocks {
   display: -ms-flexbox;
@@ -1204,3 +1202,52 @@ h3 {
 
 .about-content p {
   font-size: 20px; }
+
+/*--------------------------------------------------------------
+#  Tax Product Type
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#  Search Form
+--------------------------------------------------------------*/
+.header-search {
+  line-height: 1; }
+
+.header-search fieldset {
+  padding: 0; }
+
+fieldset {
+  border: 0;
+  padding: 0;
+  padding-bottom: .75rem;
+  margin: 0; }
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white; }
+
+.header-search label {
+  display: none;
+  float: left;
+  margin: 0; }
+
+label {
+  color: #2f1339;
+  display: block;
+  font-family: Novecento Sans Web,sans-serif;
+  font-size: 17.6px;
+  font-size: 1rem;
+  margin-bottom: .5rem;
+  text-transform: uppercase; }
+
+.search-button {
+  border: none;
+  background: transparent;
+  padding: none;
+  font-size: 1.2rem;
+  padding: 0rem 0rem;
+  margin-top: 3px; }

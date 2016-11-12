@@ -10,8 +10,8 @@
     display: -ms-flexbox;
     margin-left: auto;
     margin-right: auto;
-    width: 1120px;
-    padding-top: 50px;
+
+
 }
 
 .header-wrap img{
@@ -61,8 +61,7 @@
 
 
 .home-hero {
-    background:
-    url('../../images/hero-image/home-hero.jpg');
+    background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url('../../images/hero-image/home-hero.jpg')no-repeat top;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
@@ -75,10 +74,11 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    height: 200vh;
+    height: 100vh;
     background-size: cover;
     width:100%;
 }
+
 
 .logo-header{
     background:  url('http://images.clipartpanda.com/tent-clipart-black-and-white-white-black-tent-hi.png')

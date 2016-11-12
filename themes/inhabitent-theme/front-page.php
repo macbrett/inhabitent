@@ -68,7 +68,7 @@ get_header(); ?>
 ?>
 
 <?php foreach ( $journal_posts as $post ) : setup_postdata( $post ); ?>
-a
+
 <div class="journal-blocks-wrapper">
     <?php the_post_thumbnail(); ?>
 
