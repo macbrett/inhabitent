@@ -6,26 +6,43 @@
 
 
 .site-content {
-
-    margin-left: auto;
+ margin-left: auto;
     margin-right: auto;
-    width: 1120px;
+
+    /*width: 1120px;*/
 
 
 }
+.content-area {
+margin-left:30px;
+    width: 100%;
+    border-right: 1px solid #e1e1e1;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
 .journal-site-content{
 
     display:flex;
+
 }
 
 .header-wrap img{
     height: auto;
-    max-width: 100%;
+
+}
+
+.entry-header img{
+    height:520px;
+    width:760px;
+
 }
 
 .type-post .entry-header{
-  line-height: 0;
+
     position: relative;
+
 }
 
 
@@ -42,7 +59,7 @@
     margin-top: 2.25rem;
 
     top: 0;
-    padding-bottom:40px;
+
 }
 
 .journal-title a{
@@ -65,7 +82,7 @@
     padding: 1.00005rem 1.5rem;
     left: 0;
     text-transform: uppercase;
-    margin-left:116px;
+    margin-left:210px;
     font-size:1rem;
     position:absolute;
 }
@@ -97,15 +114,11 @@ color:black;
 }
 
 
-.content-area {
 
-    width: 100%;
-
-}
 
 .entry-content{
 
-    margin-right:30px;
+
 }
 
 

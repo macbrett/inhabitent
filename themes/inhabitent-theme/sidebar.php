@@ -9,22 +9,24 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 	return;
 }
 ?>
+<div class="sidebar-block">
+<div class="sidebar-block-content">
     <div class="contact-info">
 
       <h2>contact</h2>
           <ul>
               <li>
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <p>778-456-7891</p>
+                <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                <span>778-456-7891</span>
                 </li>
                 <li>
-                  <i class="fa fa-envelope" aria-hidden="true"></i></i>
-                    <a href="mailto:info@inhabitent.com>twitter">info@inhabitent.com</a>
+                  <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <span><a href="mailto:info@inhabitent.com>twitter">info@inhabitent.com</a></span>
                 </li>
                 <li>
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  1490 W Broadway
-                  Vancouver, BC V6H 1H5</a>
+                    <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                  <span>1490 W Broadway,<br>
+                  Vancouver, BC V6H 1H5</span>
                 </li>
 
             </ul>
@@ -34,3 +36,5 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 
 	<?php dynamic_sidebar( 'sidebar-1' ); ?>
 </div><!-- #secondary -->
+</div>
+</div>
