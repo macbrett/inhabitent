@@ -2,7 +2,7 @@
 #  Search Form
 --------------------------------------------------------------*/
 
-.header-search{
+/*.header-search{
 
 
     line-height: 1;
@@ -54,5 +54,67 @@ label {
   padding: 0rem 0rem;
   margin-top:3px;
 
+}*/
 
+.toggle:before {
+   background: grey;
+  font-family: FontAwesome;
+    content: "\f00e";
+   border: medium none;
+   color: white;
+   cursor: pointer;
+   display: block;
+   height: 40px;
+   position: absolute;
+   right: 0;
+   width: 50px;
 }
+
+
+#searchform {
+   float: right;
+   height: 40px;
+   margin: 0;
+   opacity: 0;
+   padding: 0;
+   visibility: hidden; /** Hide our form, for now. **/
+   width: 10px; /** The current width is set to 10px, when we'll hover on the form, it'll expand to 250px. **/
+   -webkit-transition: all 0.2s ease-in-out; /** Transitions: increase the 0.2s to slow (1s for example) the fading/sliding effect. **/;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+}
+
+.form:hover #searchform {
+   display: block;
+   opacity: 1;
+   visibility: visible; /** Show our form. **/
+   width: 250px; /** This is the new of the form, expanding from 10px. **/
+   -webkit-transition: all 0.2s ease-in-out; /** Transitions: increase the 0.2s to slow (1s for example) the fading/sliding effect. **/;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+}
+
+#searchform #s {
+    background: none repeat scroll 0 0 white;
+    border: medium none;
+    color: #2f1339;
+    float: right;
+    font-family: helvetica,verdana,arial,sans-serif;
+    font-size: 12px;
+    height: 100%;
+    padding: 0 15px;
+    outline: none;
+    width: 100%;
+}
+#searchform #searchsubmit {
+   background: url("img/s-icon.png") no-repeat scroll center center #c6473f;
+   border: medium none;
+   color: #2f1339;
+   cursor: pointer;
+   display: block;
+   height: 40px;
+   position: absolute;
+   right: 0;
+   width: 50px;
+}
+

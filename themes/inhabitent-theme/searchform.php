@@ -1,4 +1,4 @@
-<div class="header-search">
+<!--<div class="header-search">
 <form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
 	<fieldset>
 		<label>
@@ -11,5 +11,13 @@
 			<span class="screen-reader-text"><?php echo esc_html( 'Search' ); ?></span>
 </button>
 	</fieldset>
+</form>-->
+
+
+<div class="form">
+<span class="toggle"></span>
+<form role="search" method="get" id="searchform" action="<?php echo home_url('/'); ?>">
+<input type="text" placeholder="Search" id="s" name="s" value="">
+<input type="submit" value="" id="searchsubmit">
 </form>
 </div>
