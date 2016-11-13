@@ -15,10 +15,15 @@
 
 		<?php the_title( '<h1 class="entry-title" ', '</h1>' ); ?>
 
-<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 
+<div class="journal-title">
+<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+</div>
+
+<div class="journal-entry-meta">
 <div class="entry-meta">
 			<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?> / <?php red_starter_posted_by(); ?>
+</div>
 		</div>
 
 		<!-- .entry-meta -->

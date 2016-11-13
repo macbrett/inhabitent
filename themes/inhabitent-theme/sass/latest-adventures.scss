@@ -3,10 +3,11 @@
 .latest-adventures{
     display:flex;
     flex-flow:row;
-justify-content:space-between;
+    justify-content:space-between;
     margin-left: auto;
     margin-right: auto;
     width: 1120px;
+    padding-bottom:2rem;
 
 }
 
@@ -158,3 +159,26 @@ color: #f0e4d1;
 
  }
 
+.more-button a{
+
+
+    color:white;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    font-family: Novecento Sans Web,sans-serif;
+    font-size: 14.4px;
+    font-size: 1.2rem;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    margin-top: 1.75rem;
+}
+
+.more-button{
+padding-top:20px;
+background-color:#248a83;
+margin-left:50px;
+}

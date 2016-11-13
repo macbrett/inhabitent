@@ -154,7 +154,9 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-
+                <div>
+                  <button class="more-button"><a href="">more adventures</a></button>
+                </div>
 
 </section>
   <p class="see-more"></p>
