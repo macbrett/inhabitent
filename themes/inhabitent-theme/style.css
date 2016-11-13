@@ -389,19 +389,16 @@ input[type="submit"] {
   border-color: #ccc #ccc #bbb;
   border-radius: 3px;
   background: #e6e6e6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
   color: rgba(0, 0, 0, 0.8);
   font-size: 12px;
   font-size: 0.75rem;
   line-height: 1;
-  padding: .6em 1em .4em;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
+  padding: .6em 1em .4em; }
   button:hover,
   input[type="button"]:hover,
   input[type="reset"]:hover,
   input[type="submit"]:hover {
-    border-color: #ccc #bbb #aaa;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02); }
+    border-color: #ccc #bbb #aaa; }
   button:active, button:focus,
   input[type="button"]:active,
   input[type="button"]:focus,
@@ -409,8 +406,7 @@ input[type="submit"] {
   input[type="reset"]:focus,
   input[type="submit"]:active,
   input[type="submit"]:focus {
-    border-color: #aaa #bbb #bbb;
-    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15); }
+    border-color: #aaa #bbb #bbb; }
 
 /* Fields */
 input[type="text"],
@@ -725,24 +721,6 @@ a {
 .bypostauthor {
   display: block; }
 
-.entry-footer {
-  background: yellow; }
-
-.post-navigation a {
-  color: blue;
-  font-size: 20px; }
-
-.cat-links {
-  color: green;
-  font-size: 30px; }
-
-.tags-links {
-  color: red;
-  font-size: 30px; }
-
-.fa {
-  color: black; }
-
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -957,6 +935,9 @@ object {
   padding-left: 5%;
   font-size: 18px; }
 
+.day-of-week {
+  font-weight: bold; }
+
 .contact-info {
   padding-left: 5%; }
 
@@ -968,6 +949,12 @@ object {
   display: inline-block;
   font-size: 18px;
   padding-left: 20px; }
+
+.contact-info a {
+  color: #248a83; }
+
+.contact-info a:hover {
+  color: purple; }
 
 .fa {
   color: black; }
@@ -997,11 +984,6 @@ object {
   margin: 1.5rem; }
 
 .adventure-photos a {
-  font-family: Merriweather Web,serif;
-  font-weight: 400;
-  margin-top: 24px;
-  font-size: 12px;
-  text-transform: none;
   text-decoration: none;
   color: #fff; }
 
@@ -1012,22 +994,16 @@ object {
   display: block; }
 
 .adventure-button {
-  background: transparent; }
-
-.adventure-info .adventure-button a {
-  background-color: transparent;
-  color: black;
-  border: none;
+  border-color: white;
+  background: transparent;
+  color: white;
   border-radius: 0;
-  color: #fff;
   cursor: pointer;
   font-family: Novecento Sans Web,sans-serif;
-  font-size: 14.4px;
-  font-size: .9rem;
   line-height: 1;
   text-decoration: none;
   text-transform: uppercase;
-  color: #000;
+  margin-left: 5%;
   margin-top: 1.75rem; }
 
 .adventure-button:hover {
@@ -1049,6 +1025,10 @@ object {
 .canoe-girl a {
   font-size: 44px; }
 
+.canoe-girl .adventure-button a {
+  font-size: 16px;
+  margin-top: 1.75rem; }
+
 .beach-bonfire {
   background: url("../../images/adventure-photos/beach-bonfire.jpg");
   height: 270px;
@@ -1064,6 +1044,10 @@ object {
 
 .beach-bonfire a {
   font-size: 33px; }
+
+.beach-bonfire .adventure-button a {
+  font-size: 16px;
+  margin-top: 1.75rem; }
 
 .bundle1 {
   background-size: cover;
@@ -1084,11 +1068,15 @@ object {
   display: flex 2 1 48%;
   margin-right: 0.5%;
   margin-top: 3%;
-  margin-left: 1%;
   background: cover; }
 
 .mountain-hikers a {
-  font-size: 22px; }
+  font-size: 32px;
+  margin-left: 3%; }
+
+.mountain-hikers .adventure-button a {
+  font-size: 16px;
+  margin-top: 1.75rem; }
 
 .night-sky {
   background: url("../../images/adventure-photos/night-sky.jpg");
@@ -1101,10 +1089,15 @@ object {
   margin-right: 0.5%;
   margin-left: 3%;
   margin-top: 3%;
-  background: cover; }
+  background-size: cover;
+  background-position: center bottom; }
 
 .night-sky a {
-  font-size: 22px; }
+  font-size: 32px; }
+
+.night-sky .adventure-button a {
+  font-size: 16px;
+  margin-top: 1.75rem; }
 
 .adventure-photos a h3 {
   font-family: Novecento Sans Web,sans-serif; }
@@ -1127,7 +1120,6 @@ h3 a:hover {
   margin-top: 1.75rem; }
 
 .more-button {
-  padding-top: 20px;
   background-color: #248a83;
   margin-left: 50px; }
 
@@ -1331,6 +1323,12 @@ h3 {
 /*--------------------------------------------------------------
 # Single-Product
 --------------------------------------------------------------*/
+.archive-title {
+  text-align: center; }
+
+.archive-title p {
+  font-size: 20px; }
+
 .single-content-wrapper {
   padding-left: 20px; }
 
@@ -1405,76 +1403,75 @@ h3 {
 #  Tax Product Type
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
-#  Search Form
+# Single-Post
 --------------------------------------------------------------*/
-/*.header-search{
+.entry-footer {
+  font-family: Novecento Sans Web,sans-serif; }
 
+.post-navigation a {
+  color: black;
+  font-size: 20px; }
 
-    line-height: 1;
+.cat-links {
+  display: inline-block;
+  font-family: Novecento Sans Web,sans-serif;
+  text-transform: uppercase;
+  color: black;
+  font-size: 20px;
+  margin-right: 1.5rem; }
 
+.cat-links a {
+  color: #248a83;
+  text-decoration: none; }
 
-}
-.header-search fieldset {
-    padding: 0;
-}
+.tags-links {
+  color: black;
+  font-size: 20px;
+  display: inline-block;
+  font-family: Novecento Sans Web,sans-serif;
+  text-transform: uppercase; }
 
-fieldset {
-    border: 0;
-    padding: 0;
-    padding-bottom: .75rem;
-    margin: 0;
-}
+.tags-links a {
+  color: #248a83;
+  text-decoration: none; }
 
 .fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color:white;
-}
+  color: black; }
 
-.header-search label {
-    display: none;
-    float: left;
-    margin: 0;
-}
+.nav-links {
+  display: none; }
 
-label {
-    color: #2f1339;
-    display: block;
-    font-family: Novecento Sans Web,sans-serif;
-    font-size: 17.6px;
-    font-size: 1rem;
-    margin-bottom: .5rem;
-    text-transform: uppercase;
-}
+.entry-info {
+  display: block;
+  line-height: 3; }
 
-.search-button{
-  border:none;
-  background:transparent;
-  padding:none;
-  font-size: 1.2rem;
-  padding: 0rem 0rem;
-  margin-top:3px;
+.comment-reply-title {
+  color: black; }
 
-}*/
+.comment-form p {
+  font-size: 20px; }
+
+/*--------------------------------------------------------------
+#  Search Form
+--------------------------------------------------------------*/
+.form {
+  display: -ms-flexbox;
+  display: flex; }
+
 .toggle:before {
-  background: grey;
+  background: none;
   font-family: FontAwesome;
   content: "\f00e";
   border: medium none;
   color: white;
   cursor: pointer;
   display: block;
-  height: 40px;
-  position: absolute;
+  height: 20px;
   right: 0;
-  width: 50px; }
+  width: 50px;
+  padding-left: 20px; }
 
-#searchform {
-  float: right;
+.searchform {
   height: 40px;
   margin: 0;
   opacity: 0;
@@ -1488,32 +1485,30 @@ label {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out; }
 
-.form:hover #searchform {
-  display: block;
+.form:hover .searchform {
   opacity: 1;
   visibility: visible;
   /** Show our form. **/
-  width: 250px;
+  width: 150px;
   /** This is the new of the form, expanding from 10px. **/
   -webkit-transition: all 0.2s ease-in-out;
   /** Transitions: increase the 0.2s to slow (1s for example) the fading/sliding effect. **/
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out; }
 
-#searchform #s {
-  background: none repeat scroll 0 0 white;
+.searchform #s {
+  background: #EFF4FA;
   border: medium none;
   color: #2f1339;
-  float: right;
   font-family: helvetica,verdana,arial,sans-serif;
   font-size: 12px;
-  height: 100%;
+  height: 40px;
   padding: 0 15px;
   outline: none;
   width: 100%; }
 
-#searchform #searchsubmit {
-  background: url("img/s-icon.png") no-repeat scroll center center #c6473f;
+.searchform #searchsubmit {
+  background: none;
   border: medium none;
   color: #2f1339;
   cursor: pointer;
@@ -1522,3 +1517,30 @@ label {
   position: absolute;
   right: 0;
   width: 50px; }
+
+/*--------------------------------------------------------------
+# Single-Post
+--------------------------------------------------------------*/
+.nav-links {
+  display: none; }
+
+.join {
+  font-family: Merriweather Web,serif;
+  font-size: 20px; }
+
+.entry-info {
+  display: block;
+  line-height: 3; }
+
+.comment-reply-title {
+  color: black; }
+
+.comment-form p {
+  font-size: 20px; }
+
+.logged-in-as {
+  display: none; }
+
+.comment-form-comment label {
+  font-family: Novecento Sans Web,sans-serif;
+  text-transform: uppercase; }

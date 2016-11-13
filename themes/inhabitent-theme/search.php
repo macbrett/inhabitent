@@ -23,6 +23,13 @@ get_header(); ?>
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
+
+ <div class="single-product-title">
+        <h1><?php the_title(); ?></h1>
+    </div>
+
+
+
 				<?php get_template_part( 'template-parts/content', 'search' ); ?>
 
 			<?php endwhile; ?>

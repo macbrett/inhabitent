@@ -41,7 +41,22 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php red_starter_entry_footer(); ?>
+	<div class="entry-info">
+
+		<div><?php red_starter_entry_footer(); ?></div>
+
+
+		<div><button class="black-button"> <a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                   like</a></button>
+
+        <button class="black-button"> <a href=""><i class="fa fa-twitter" aria-hidden="true"></i>
+                  tweet</a></button>
+
+        <button class="black-button"> <a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                  pin</a></button></div>
+
+</div>
+<p class="join">Want to join the discussion? Feel free to contribute!</p>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
 

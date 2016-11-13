@@ -17,7 +17,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
           <ul>
               <li>
                 <span><i class="fa fa-phone" aria-hidden="true"></i></span>
-                <span>778-456-7891</span>
+                <span><a href="">778-456-7891</a></span>
                 </li>
                 <li>
                   <span><i class="fa fa-envelope" aria-hidden="true"></i></span>

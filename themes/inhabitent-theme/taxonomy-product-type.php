@@ -16,8 +16,11 @@ get_header(); ?>
 
       <header class="page-header">
 
+<div class="archive-title">
+<h1><?php echo str_replace('Product Type: ','',get_the_archive_title()); ?></h1>
+<p><?php echo term_description() ?></p>
+</div>
 
-<?php echo str_replace('Product Type: ','',get_the_archive_title()); ?>
 
       </header><!-- .page-header -->
 

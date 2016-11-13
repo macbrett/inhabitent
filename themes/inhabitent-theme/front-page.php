@@ -136,24 +136,27 @@ get_header(); ?>
                           <div class="adventure-info">
                           <a href="#">Taking in the View at Big Mountain</a>
                       </span>
+
                       <div>
-                  <button class="adventure-button"><a href="">read more</a></button>
-                </div>
+                          <button class="adventure-button"><a href="">read more</a></button>
                       </div>
                     </div>
+                </div>
+
                     <div class="night-sky">
                       <span class="adventure-photos">
                         <div class="adventure-info">
-                          <a href="#">Star-Gazing at the Night Sky</a>
+                        <a href="#">Star-Gazing at the Night Sky</a>
                       </span>
                       <div>
-                  <button class="adventure-button"><a href="">read more</a></button>
-                </div>
+                        <button class="adventure-button"><a href="">read more</a></button>
+                      </div>
                     </div>
-                    </div>
+                  </div>
                 </div>
             </div>
         </div>
+
                 <div>
                   <button class="more-button"><a href="">more adventures</a></button>
                 </div>

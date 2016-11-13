@@ -23,7 +23,8 @@ get_header(); ?>
 			<div class="entry-footer">
 			<?php the_post_navigation(); ?>
 
-<h1>go to single.php at bottom to style this area</h1>
+
+
 
 			<div>
 			<?php

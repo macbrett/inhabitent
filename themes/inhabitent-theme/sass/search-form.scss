@@ -2,77 +2,30 @@
 #  Search Form
 --------------------------------------------------------------*/
 
-/*.header-search{
 
 
-    line-height: 1;
+.form{
 
-
+  display:flex;
 }
-.header-search fieldset {
-    padding: 0;
-}
-
-fieldset {
-    border: 0;
-    padding: 0;
-    padding-bottom: .75rem;
-    margin: 0;
-}
-
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color:white;
-}
-
-.header-search label {
-    display: none;
-    float: left;
-    margin: 0;
-}
-
-label {
-    color: #2f1339;
-    display: block;
-    font-family: Novecento Sans Web,sans-serif;
-    font-size: 17.6px;
-    font-size: 1rem;
-    margin-bottom: .5rem;
-    text-transform: uppercase;
-}
-
-.search-button{
-  border:none;
-  background:transparent;
-  padding:none;
-  font-size: 1.2rem;
-  padding: 0rem 0rem;
-  margin-top:3px;
-
-}*/
-
 .toggle:before {
-   background: grey;
+   background: none;
   font-family: FontAwesome;
     content: "\f00e";
    border: medium none;
    color: white;
    cursor: pointer;
    display: block;
-   height: 40px;
-   position: absolute;
+   height: 20px;
+
    right: 0;
    width: 50px;
+   padding-left:20px;
 }
 
 
-#searchform {
-   float: right;
+.searchform {
+
    height: 40px;
    margin: 0;
    opacity: 0;
@@ -84,30 +37,30 @@ label {
    -o-transition: all 0.2s ease-in-out;
 }
 
-.form:hover #searchform {
-   display: block;
+.form:hover .searchform {
+
    opacity: 1;
    visibility: visible; /** Show our form. **/
-   width: 250px; /** This is the new of the form, expanding from 10px. **/
+   width: 150px; /** This is the new of the form, expanding from 10px. **/
    -webkit-transition: all 0.2s ease-in-out; /** Transitions: increase the 0.2s to slow (1s for example) the fading/sliding effect. **/;
    -moz-transition: all 0.2s ease-in-out;
    -o-transition: all 0.2s ease-in-out;
 }
 
-#searchform #s {
-    background: none repeat scroll 0 0 white;
+.searchform #s {
+    background: #EFF4FA;
     border: medium none;
     color: #2f1339;
-    float: right;
+
     font-family: helvetica,verdana,arial,sans-serif;
     font-size: 12px;
-    height: 100%;
+    height: 40px;
     padding: 0 15px;
     outline: none;
     width: 100%;
 }
-#searchform #searchsubmit {
-   background: url("img/s-icon.png") no-repeat scroll center center #c6473f;
+.searchform #searchsubmit {
+   background: none;
    border: medium none;
    color: #2f1339;
    cursor: pointer;
