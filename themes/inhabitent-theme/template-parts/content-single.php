@@ -6,6 +6,7 @@
  */
 
 ?>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<header class="entry-header" >
@@ -24,7 +25,7 @@
 <div class="entry-meta">
 			<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?> / <?php red_starter_posted_by(); ?>
 </div>
-		</div>
+</div>
 
 		<!-- .entry-meta -->
 	</header><!-- .entry-header -->
@@ -43,3 +44,4 @@
 		<?php red_starter_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
+

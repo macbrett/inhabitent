@@ -562,9 +562,13 @@ a {
 --------------------------------------------------------------*/
 /* Posts and pages */
 .site-content {
-  display: -ms-flexbox;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  width: 1120px; }
+
+.journal-site-content {
+  display: -ms-flexbox;
+  display: flex; }
 
 .header-wrap img {
   height: auto;
@@ -602,19 +606,10 @@ a {
   padding: 1.00005rem 1.5rem;
   left: 0;
   text-transform: uppercase;
-  margin-left: 220px; }
+  margin-left: 116px;
+  font-size: 1rem;
+  position: absolute; }
 
-/*.single-entry-meta .entry-meta {
-    background-color: #248a83;
-    bottom: 0;
-    color: #fff;
-    display: inline-block;
-    font-family: Novecento Sans Web,sans-serif;
-    padding: 1.00005rem 1.5rem;
-    left: 0;
-    text-transform: uppercase;
-    margin-left:220px;
-}*/
 .journal-button a {
   color: black;
   border: none;
@@ -637,6 +632,9 @@ a {
 
 .content-area {
   width: 100%; }
+
+.entry-content {
+  margin-right: 30px; }
 
 .home-hero {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url("../../images/hero-image/home-hero.jpg") no-repeat top;
@@ -689,6 +687,24 @@ a {
 
 .bypostauthor {
   display: block; }
+
+.entry-footer {
+  background: yellow; }
+
+.post-navigation a {
+  color: blue;
+  font-size: 20px; }
+
+.cat-links {
+  color: green;
+  font-size: 30px; }
+
+.tags-links {
+  color: red;
+  font-size: 30px; }
+
+.fa {
+  color: black; }
 
 /*--------------------------------------------------------------
 # Media
@@ -1266,7 +1282,7 @@ h3 {
 .single-product-title {
   color: #d99054; }
 
-.price {
+.single-price {
   font-family: Novecento Sans Web,sans-serif;
   font-size: 28.8px;
   font-size: 1.8rem;

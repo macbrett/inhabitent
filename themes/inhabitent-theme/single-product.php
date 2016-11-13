@@ -30,7 +30,7 @@ get_header(); ?>
     </div>
 
 
-      <div><p class="price">
+      <div><p class="single-price">
         <?php echo CFS()->get( 'product_price' ); ?></p>
       </div>
 
