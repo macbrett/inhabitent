@@ -25,16 +25,27 @@ get_header(); ?>
     </div>
 
     <div class="single-content-wrapper">
-        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+    <div class="single-product-title">
+        <h1><?php the_title(); ?></h1>
+    </div>
 
 
-      <div>
-        <?php echo CFS()->get( 'product_price' ); ?>
+      <div><p class="price">
+        <?php echo CFS()->get( 'product_price' ); ?></p>
       </div>
 
       <div class="entry-content">
         <?php the_excerpt(); ?>
       </div><!-- .entry-content -->
+
+       <button class="black-button"> <a href=""><i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                   like</a></button>
+
+        <button class="black-button"> <a href=""><i class="fa fa-twitter" aria-hidden="true"></i>
+                  tweet</a></button>
+
+        <button class="black-button"> <a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                  pin</a></button>
 
           <?php
           // If comments are open or we have at least one comment, load up the comment template.

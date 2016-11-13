@@ -2,7 +2,9 @@
 # Single-Product
 --------------------------------------------------------------*/
 
-
+.single-content-wrapper{
+padding-left:20px;
+}
 .single-content-area{
 
 padding-top: 3rem;
@@ -17,4 +19,31 @@ padding-top: 3rem;
     justify-content: space-between;
 }
 
+.single-product-title{
 
+color:#d99054
+}
+
+.price{
+      font-family: Novecento Sans Web,sans-serif;
+    font-size: 28.8px;
+    font-size: 1.8rem;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.entry-content p{
+
+  font-size:20px;
+}
+
+.fa-thumbs-up:before{
+    color:black;
+}
+
+.fa-pinterest-p:before{
+    color:black;
+}
+.fa-twitter:before{
+    color:black;
+}
