@@ -5,9 +5,7 @@
 
 
 .site-header {
-
     position: fixed;
-    text-shadow: 1px 1px 2px #323232;
     transition: top .5s linear;
     width: 100%;
     z-index: 3;
@@ -15,7 +13,7 @@
 }
 
 .site-header a{
-    color: white;
+    color: #248a83;
 }
 
  .container {
@@ -52,9 +50,15 @@
 
 .logo {
     width: 53px;
+    color: #248a83;
 
 }
 
+.logo a{
+   color: #248a83;
+
+
+}
 .main-navigation{
     font-family: Novecento Sans Web,sans-serif;
     text-transform: uppercase;
@@ -75,7 +79,6 @@
     padding-left: 1.5rem;
     position: relative;
 }
-
 
 .header-search {
     line-height: 1;

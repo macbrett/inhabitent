@@ -54,12 +54,17 @@ margin-left:30px;
     font-size: 33.6px;
     font-size: 1.1rem;
     left: 0;
-    padding: .75rem 1.5rem;
+    padding: .75rem 0rem;
     position: absolute;
     margin-top: 2.25rem;
 
     top: 0;
 
+}
+
+ .entry-title{
+
+        max-width: 75%;
 }
 
 .journal-title a{
@@ -78,14 +83,31 @@ margin-left:30px;
     bottom: 0;
     color: #fff;
     display: inline-block;
-    font-family: Novecento Sans Web,sans-serif;
+    font-family: 'novecentosanswide_normal',sans-serif;
     padding: 1.00005rem 1.5rem;
     left: 0;
     text-transform: uppercase;
-    margin-left:210px;
+    margin-left:320px;
     font-size:1rem;
     position:absolute;
 }
+
+ .single-journal-entry-meta
+ {
+    background-color: #248a83;
+    bottom: 0;
+    color: #fff;
+    display: inline-block;
+    font-family: 'novecentosanswide_normal',sans-serif;
+    font-weight:50;
+    padding: 1.00005rem 1.5rem;
+    left: 0;
+    text-transform: uppercase;
+    margin-left:220px;
+    font-size:1rem;
+    position:absolute;
+}
+
 
 
 
@@ -116,11 +138,6 @@ color:black;
 
 
 
-.entry-content{
-
-
-}
-
 
 .home-hero {
     background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url('../../images/hero-image/home-hero.jpg')no-repeat top;
@@ -142,9 +159,9 @@ color:black;
 }
 
 
-.logo-header{
+/*.logo-header{
     background:  url('http://images.clipartpanda.com/tent-clipart-black-and-white-white-black-tent-hi.png')
-    }
+    }*/
 
 .sticky {
 	display: block;
