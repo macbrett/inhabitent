@@ -57,6 +57,10 @@
 
 </div>
 <p class="join">Want to join the discussion? Feel free to contribute!</p>
+
+
+
+
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
 

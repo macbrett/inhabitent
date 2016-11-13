@@ -1584,3 +1584,36 @@ h3 {
 .comment-form-comment label {
   font-family: Novecento Sans Web,sans-serif;
   text-transform: uppercase; }
+
+/*--------------------------------------------------------------
+# Contact Form 7
+--------------------------------------------------------------*/
+label {
+  color: #2f1339;
+  font-family: Novecento Sans Web,sans-serif;
+  font-size: 17.6px;
+  font-size: 1.1rem;
+  margin-bottom: .5rem;
+  text-transform: uppercase; }
+
+.contact-form-7 {
+  display: block;
+  padding: 1rem; }
+
+.text-fields {
+  display: -ms-flexbox;
+  display: flex; }
+
+.comment-form-author {
+  margin-right: 1%;
+  width: 49%; }
+
+.comment-form-email input {
+  width: 100%; }
+
+.comment-form-url {
+  clear: left;
+  width: 100%; }
+
+#submit {
+  display: none; }
