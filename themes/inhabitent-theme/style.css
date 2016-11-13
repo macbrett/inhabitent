@@ -449,7 +449,8 @@ textarea {
 --------------------------------------------------------------*/
 /* Links */
 a {
-  color: royalblue; }
+  color: royalblue;
+  text-decoration: none; }
   a:visited {
     color: purple; }
   a:hover, a:focus, a:active {
@@ -635,6 +636,10 @@ a {
   position: absolute;
   margin-top: 2.25rem;
   top: 0; }
+
+.entry-title a {
+  margin-left: 20px;
+  display: block; }
 
 .entry-title {
   max-width: 75%; }

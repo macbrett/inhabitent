@@ -35,7 +35,7 @@
 		<?php the_excerpt(); ?>
 		 <div>
        <button class="black-button"> <a href="<?php the_permalink(); ?>">
-                  read more -></a></button>
+                  read more</a></button>
      </div>
 	</div><!-- .entry-content -->
 </article><!-- #post-## -->
