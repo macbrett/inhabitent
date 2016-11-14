@@ -5,6 +5,7 @@ Author: Brett MacDonald
 Author URI: http://www.redacademy.com
 Description: A custom theme for Inhabitent Camping Supply Co.
 Version: 1.0.0
+Text Domain: inhabitent-theme
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags:
@@ -642,7 +643,7 @@ a {
   display: block; }
 
 .entry-title {
-  max-width: 75%; }
+  max-width: 100%; }
 
 .journal-title a {
   color: white;
@@ -650,6 +651,9 @@ a {
 
 .journal-title p {
   font-size: 2rem; }
+
+.journal-title .entry-title {
+  max-width: 75%; }
 
 .journal-entry-meta .entry-meta {
   background-color: #248a83;
@@ -1395,6 +1399,9 @@ h3 {
 .fa-twitter:before {
   color: black; }
 
+.title-green a {
+  color: #248a83; }
+
 .about-hero {
   color: #fff;
   display: -ms-flexbox;
@@ -1584,6 +1591,12 @@ h3 {
 .comment-form-comment label {
   font-family: Novecento Sans Web,sans-serif;
   text-transform: uppercase; }
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------*/
+.seriously {
+  font-size: 20px; }
 
 /*--------------------------------------------------------------
 # Contact Form 7

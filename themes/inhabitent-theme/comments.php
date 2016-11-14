@@ -74,9 +74,6 @@ if ( post_password_required() ) {
 
 <div class="contact-form-7">
 
-
-
-
 <div class="text-fields">
 	<?php echo do_shortcode( '[contact-form-7 id="178" title="inhabitent contact form"]' ); ?>
 </div>

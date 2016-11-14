@@ -8,7 +8,7 @@
 get_header(); ?>
 
 
-
+<div class="journal-site-content">
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
@@ -24,13 +24,18 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
 
- <div class="single-product-title">
-        <h1><?php the_title(); ?></h1>
-    </div>
+<div class="title-green">
+ <a href="<?php the_permalink(); ?>"><h1><?php the_title(); ?></h1></a>
+</div>
 
+      <div class="entry-content">
+        <?php the_excerpt(); ?>
+      </div><!-- .entry-content -->
 
-
-				<?php get_template_part( 'template-parts/content', 'search' ); ?>
+		<div>
+       <button class="black-button"> <a href="<?php the_permalink(); ?>">
+                  read more</a></button>
+     </div>
 
 			<?php endwhile; ?>
 
