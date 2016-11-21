@@ -40,7 +40,8 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
+
+<footer class="entry-footer">
 	<div class="entry-info">
 
 		<div><?php red_starter_entry_footer(); ?></div>

@@ -26,7 +26,15 @@ get_header(); ?>
   <?php echo do_shortcode( '[contact-form-7 id="179" title="inhabitent2"]' ); ?>
 </div>
 
-<button class="more-button"><a href="">submit</a></button>
+
+
+
+<div class="comment list">
+    <?php wp_list_comments( array( 'style' => 'div' ) ); ?>
+</div>
+
+
+
 
   </div>
 

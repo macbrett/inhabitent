@@ -10,22 +10,15 @@ get_header(); ?>
 
 
   <div id="primary" class="content-area">
-<main id="main" class="site-main" role="main">
+    <main id="main" class="site-main" role="main">
     <section class="home-hero">
-
-    <div class="home-hero">
-<img src="<?php echo get_template_directory_uri() . '/images/logos/inhabitent-logo-full.svg'; ?>" />
-    </div>
-
-
-</div>
+        <div class="home-hero">
+            <img src="<?php echo get_template_directory_uri() . '/images/logos/inhabitent-logo-full.svg'; ?>" />
+        </div>
+  </div>
     </section>
 
-
-      <?php while ( have_posts() ) : the_post(); ?>
-
-
-
+    <?php while ( have_posts() ) : the_post(); ?>
 
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -42,14 +35,9 @@ get_header(); ?>
 			) );
 		?>-->
 
+  <?php endwhile; // End of the loop. ?>
 
-
-      <?php endwhile; // End of the loop. ?>
-
-
-  
-
-<section class = "product-info">
+  <section class = "product-info">
               <div class="product-header">
                <h2> shop stuff </h2>
                </div>
