@@ -57,19 +57,10 @@
                   pin</a></button></div>
 
 
-
-
-
-
 </div>
 <p class="join">Want to join the discussion? Feel free to contribute!</p>
 
-
-
-
-
-
-	</footer><!-- .entry-footer -->
+</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
 </div>
 <?php get_sidebar(); ?>
