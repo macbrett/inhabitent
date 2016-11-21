@@ -716,9 +716,6 @@ a {
   background-size: cover;
   width: 100%; }
 
-/*.logo-header{
-    background:  url('http://images.clipartpanda.com/tent-clipart-black-and-white-white-black-tent-hi.png')
-    }*/
 .sticky {
   display: block; }
 
@@ -753,6 +750,10 @@ a {
 
 .bypostauthor {
   display: block; }
+
+.sidebar-flex {
+  display: -ms-flexbox;
+  display: flex; }
 
 /*--------------------------------------------------------------
 # Media
@@ -1145,7 +1146,6 @@ h3 a:hover {
   color: white;
   border: none;
   border-radius: 0;
-  color: #fff;
   cursor: pointer;
   font-family: Novecento Sans Web,sans-serif;
   font-size: 14.4px;
@@ -1566,33 +1566,6 @@ h3 {
   width: 50px; }
 
 /*--------------------------------------------------------------
-# Single-Post
---------------------------------------------------------------*/
-.nav-links {
-  display: none; }
-
-.join {
-  font-family: Merriweather Web,serif;
-  font-size: 20px; }
-
-.entry-info {
-  display: block;
-  line-height: 3; }
-
-.comment-reply-title {
-  color: black; }
-
-.comment-form p {
-  font-size: 20px; }
-
-.logged-in-as {
-  display: none; }
-
-.comment-form-comment label {
-  font-family: Novecento Sans Web,sans-serif;
-  text-transform: uppercase; }
-
-/*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------*/
 .seriously {
@@ -1628,5 +1601,46 @@ label {
   clear: left;
   width: 100%; }
 
-#submit {
+/*--------------------------------------------------------------
+# Single-Post
+--------------------------------------------------------------*/
+.nav-links {
   display: none; }
+
+.join {
+  font-family: Merriweather Web,serif;
+  font-size: 20px; }
+
+.entry-info {
+  display: block;
+  line-height: 3; }
+
+.comment-reply-title {
+  color: black; }
+
+.comment-form p {
+  font-size: 20px; }
+
+.logged-in-as {
+  display: none; }
+
+.comment-form-comment label {
+  font-family: Novecento Sans Web,sans-serif;
+  text-transform: uppercase; }
+
+.comment-form-author {
+  margin-right: 1%;
+  width: 49%;
+  float: left; }
+
+.comment-form-email {
+  margin-left: 1%;
+  width: 49%;
+  float: left; }
+
+.comment-form-email input {
+  width: 100%; }
+
+textarea {
+  padding-left: .3rem;
+  width: 50%; }

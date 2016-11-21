@@ -36,4 +36,27 @@ font-family:Merriweather Web,serif;
 
   font-family:Novecento Sans Web,sans-serif;
   text-transform:uppercase;
+  
+}
+
+.comment-form-author{
+
+      margin-right: 1%;
+    width: 49%;
+        float: left;
+}
+.comment-form-email{
+
+  margin-left: 1%;
+    width: 49%;
+    float: left;
+}
+
+.comment-form-email input {
+    width: 100%
+}
+
+textarea {
+    padding-left: .3rem;
+    width: 50%;
 }

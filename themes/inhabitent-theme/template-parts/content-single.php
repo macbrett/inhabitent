@@ -39,8 +39,8 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-
-
+<div class="sidebar-flex">
+<div class="body-content">
 <footer class="entry-footer">
 	<div class="entry-info">
 
@@ -56,12 +56,21 @@
         <button class="black-button"> <a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i>
                   pin</a></button></div>
 
+
+
+
+
+
 </div>
 <p class="join">Want to join the discussion? Feel free to contribute!</p>
 
 
 
 
+
+
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
-
+</div>
+<?php get_sidebar(); ?>
+</div>

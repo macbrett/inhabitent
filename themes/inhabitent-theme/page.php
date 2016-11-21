@@ -20,25 +20,19 @@ get_header(); ?>
 			<?php endwhile; // End of the loop. ?>
 
 <h1>send us email!</h1>
-      <div class="contact-form-7">
+     
+<div class="contact-form-7">
 
 <div class="text-fields">
-  <?php echo do_shortcode( '[contact-form-7 id="179" title="inhabitent2"]' ); ?>
+	<?php echo do_shortcode( '[contact-form-7 id="179" title="inhabitent2"]' ); ?>
 </div>
 
 
 
-
-<div class="comment list">
-    <?php wp_list_comments( array( 'style' => 'div' ) ); ?>
-</div>
+	</div>
 
 
-
-
-  </div>
-
-		</main><!-- #main -->
+</main><!-- #main -->
 
 	</div><!-- #primary -->
 

@@ -28,7 +28,7 @@ if ( post_password_required() ) {
 		<nav id="comment-nav-above" class="navigation comment-navigation" role="navigation">
 			<h2 class="screen-reader-text"><?php esc_html( 'Comment navigation' ); ?></h2>
 			<div class="nav-links">
-<div class="join"><p>"Want to join the discussion? Feel free to contribute!"</p></div>
+
 				<div class="nav-previous"><?php previous_comments_link( esc_html( 'Older Comments' ) ); ?></div>
 				<div class="nav-next"><?php next_comments_link( esc_html( 'Newer Comments' ) ); ?></div>
 
@@ -71,15 +71,5 @@ if ( post_password_required() ) {
 		'label_submit'         => esc_html( 'Submit' ),
 		'cancel_reply_link'    => esc_html( '[Cancel reply]' )
 	) ); ?>
-
-<div class="contact-form-7">
-
-<div class="text-fields">
-	<?php echo do_shortcode( '[contact-form-7 id="178" title="inhabitent contact form"]' ); ?>
-</div>
-
-
-
-	</div>
 
 </div><!-- #comments -->
