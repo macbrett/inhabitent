@@ -10,6 +10,7 @@
     width: 100%;
     z-index: 3;
     padding: .5rem 0;
+    width:100%;
 }
 
 .site-header a{
@@ -26,7 +27,7 @@
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-left: auto;
+    margin-left: 25px;
     margin-right: auto;
     width: 1120px;
 }
@@ -51,6 +52,7 @@
 .logo {
     width: 53px;
     color: #248a83;
+    margin-left:20px;
 
 }
 

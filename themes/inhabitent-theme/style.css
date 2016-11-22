@@ -289,7 +289,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Copy */
 p {
-  margin-bottom: 1.5em; }
+  margin-bottom: 1.5em;
+  font-family: 'merriweatherlight'; }
 
 dfn, cite, em, i {
   font-style: italic; }
@@ -444,6 +445,9 @@ input[type="search"] {
 textarea {
   padding-left: 3px;
   width: 100%; }
+
+form {
+  margin-left: 20px; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -816,10 +820,6 @@ object {
   display: block; }
 
 /*--------------------------------------------------------------
-# Page Templates
---------------------------------------------------------------*/
-/* Front page */
-/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 .site-header {
@@ -827,7 +827,8 @@ object {
   transition: top .5s linear;
   width: 100%;
   z-index: 3;
-  padding: .5rem 0; }
+  padding: .5rem 0;
+  width: 100%; }
 
 .site-header a {
   color: #248a83; }
@@ -839,7 +840,7 @@ object {
   display: flex;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-left: auto;
+  margin-left: 25px;
   margin-right: auto;
   width: 1120px; }
 
@@ -858,7 +859,8 @@ object {
 
 .logo {
   width: 53px;
-  color: #248a83; }
+  color: #248a83;
+  margin-left: 20px; }
 
 .logo a {
   color: #248a83; }
@@ -995,6 +997,14 @@ object {
 
 .fa {
   color: white; }
+
+.fa-phone:before {
+  content: "\f095";
+  color: black; }
+
+.fa-envelope:before {
+  content: "\f0e0";
+  color: black; }
 
 .latest-adventures {
   display: -ms-flexbox;
@@ -1147,7 +1157,7 @@ h3 a:hover {
   border: none;
   border-radius: 0;
   cursor: pointer;
-  font-family: Novecento Sans Web,sans-serif;
+  font-family: 'novecentosanswide_normal',sans-serif;
   font-size: 14.4px;
   font-size: 1.2rem;
   line-height: 1;
@@ -1400,6 +1410,14 @@ h3 {
 .title-green a {
   color: #248a83; }
 
+.product-grid-item-info {
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+
 .about-hero {
   color: #fff;
   display: -ms-flexbox;
@@ -1435,17 +1453,6 @@ h3 {
 
 .about-content p {
   font-size: 20px; }
-
-/*--------------------------------------------------------------
-#  Tax Product Type
---------------------------------------------------------------*/
-.product-grid-item-info {
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center; }
 
 /*--------------------------------------------------------------
 # Single-Post
@@ -1495,6 +1502,88 @@ h3 {
 
 .comment-form p {
   font-size: 20px; }
+
+.nav-links {
+  display: none; }
+
+.join {
+  font-family: Merriweather Web,serif;
+  font-size: 20px; }
+
+.entry-info {
+  display: block;
+  line-height: 3; }
+
+.comment-reply-title {
+  color: black; }
+
+form {
+  width: 750px; }
+
+.comment-form p {
+  font-size: 20px; }
+
+.logged-in-as {
+  display: none; }
+
+.comment-form-comment label {
+  font-family: Novecento Sans Web,sans-serif;
+  text-transform: uppercase; }
+
+.comment-form-author {
+  margin-right: 1%;
+  width: 49%;
+  float: left; }
+
+.comment-form-email {
+  margin-left: 1%;
+  width: 49%;
+  float: left; }
+
+.comment-reply-title {
+  margin-left: 20px; }
+
+.comment-form-url input {
+  width: 95%; }
+
+textarea {
+  padding-left: .3rem;
+  width: 95%; }
+
+input[type=submit] {
+  color: white;
+  border: none;
+  border-radius: 0;
+  background-color: #248a83;
+  cursor: pointer;
+  font-family: 'novecentosanswide_normal',sans-serif;
+  font-weight: 50;
+  font-size: 14.4px;
+  font-size: 1.2rem;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.seriously {
+  font-size: 20px; }
+
+.comment-author-avatar {
+  border-radius: 50%;
+  height: 64px;
+  margin-right: 1.5rem;
+  overflow: hidden;
+  width: 64px; }
+
+.comments-title {
+  font-family: 'novecentosanswide_demibold';
+  font-size: 32px;
+  margin-left: 25px; }
+
+.comment article {
+  padding-bottom: 1.5rem; }
+
+.comment-body {
+  border-bottom: true; }
 
 /*--------------------------------------------------------------
 #  Search Form
@@ -1564,12 +1653,6 @@ h3 {
   width: 50px; }
 
 /*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------*/
-.seriously {
-  font-size: 20px; }
-
-/*--------------------------------------------------------------
 # Contact Form 7
 --------------------------------------------------------------*/
 label {
@@ -1595,62 +1678,3 @@ label {
 .comment-form-url {
   clear: left;
   width: 100%; }
-
-/*--------------------------------------------------------------
-# Single-Post
---------------------------------------------------------------*/
-.nav-links {
-  display: none; }
-
-.join {
-  font-family: Merriweather Web,serif;
-  font-size: 20px; }
-
-.entry-info {
-  display: block;
-  line-height: 3; }
-
-.comment-reply-title {
-  color: black; }
-
-form {
-  width: 750px; }
-
-.comment-form p {
-  font-size: 20px; }
-
-.logged-in-as {
-  display: none; }
-
-.comment-form-comment label {
-  font-family: Novecento Sans Web,sans-serif;
-  text-transform: uppercase; }
-
-.comment-form-author {
-  margin-right: 1%;
-  width: 49%;
-  float: left; }
-
-.comment-form-email {
-  margin-left: 1%;
-  width: 49%;
-  float: left; }
-
-textarea {
-  padding-left: .3rem;
-  width: 95%; }
-
-input[type=submit] {
-  color: white;
-  border: none;
-  border-radius: 0;
-  background-color: #248a83;
-  cursor: pointer;
-  font-family: Novecento Sans Web,sans-serif;
-  font-size: 14.4px;
-  font-size: 1.2rem;
-  line-height: 1;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin-top: 1.75rem;
-  margin-left: 50px; }

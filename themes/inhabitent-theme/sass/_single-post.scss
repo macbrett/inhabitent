@@ -63,3 +63,119 @@ font-family:Novecento Sans Web,sans-serif;
 .comment-form p{
   font-size:20px;
 }
+
+.nav-links{
+  display:none;
+}
+
+.join{
+font-family:Merriweather Web,serif;
+ font-size:20px;
+
+}
+
+.entry-info{
+  display:block;
+  line-height:3;
+}
+
+.comment-reply-title{
+
+  color:black;
+}
+
+form{
+
+  width:750px;
+}
+
+.comment-form p{
+
+  font-size:20px;
+}
+
+.logged-in-as{
+
+  display:none;
+}
+
+.comment-form-comment label{
+
+  font-family:Novecento Sans Web,sans-serif;
+  text-transform:uppercase;
+  
+}
+
+.comment-form-author{
+
+      margin-right: 1%;
+    width: 49%;
+        float: left;
+}
+.comment-form-email{
+
+  margin-left: 1%;
+    width: 49%;
+    float: left;
+}
+
+.comment-reply-title{
+
+  margin-left:20px;
+}
+
+.comment-form-url input {
+    width: 95%;
+}
+
+textarea {
+    padding-left: .3rem;
+    width: 95%;
+}
+
+ input[type=submit]{
+
+    color:white;
+    border: none;
+    border-radius: 0;
+    background-color:#248a83;
+    cursor: pointer;
+    font-family: 'novecentosanswide_normal',sans-serif;
+    font-weight:50;
+    font-size: 14.4px;
+    font-size: 1.2rem;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+  
+}
+
+
+.seriously{
+
+  font-size:20px;
+}
+
+.comment-author-avatar {
+    border-radius: 50%;
+    height: 64px;
+    margin-right: 1.5rem;
+    overflow: hidden;
+    width: 64px;
+}
+
+.comments-title{
+   font-family: 'novecentosanswide_demibold';
+ font-size:32px;;
+  margin-left:25px;
+}
+
+.comment article {
+    padding-bottom: 1.5rem;
+}
+
+.comment-body{
+
+  border-bottom:true;
+}
+

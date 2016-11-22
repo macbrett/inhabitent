@@ -29,8 +29,6 @@ list-style:none;
 
 }
 
-
-
 .contact-info li span{
   display:inline-block;
   font-size:18px;
@@ -49,4 +47,14 @@ list-style:none;
 
 .fa {
   color:white;
+}
+
+.fa-phone:before {
+    content: "\f095";
+    color:black;
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+    color:black;
 }
