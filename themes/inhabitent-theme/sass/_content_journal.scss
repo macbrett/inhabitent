@@ -22,9 +22,10 @@
 .content-area {
     
     width: 100%;
-    border-right: 1px solid #e1e1e1;
+  
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    
+    margin-left:3rem;
 
 }
 
@@ -32,9 +33,6 @@
     display:flex;
 
 }
-
-
-
 
 .header-wrap img{
     height: auto;
@@ -212,6 +210,33 @@ color:black;
 	display: block;
 }
 
-.sidebar-flex{
-    display:flex;
+
+.comments-area{
+
+    margin-left:60px;
+}
+
+.comment-author cite {
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'merriweatherbold';
+}
+
+.comment-metadata{
+
+    font-family: 'merriweatherlight';
+    color: gray;
+    margin-bottom: .75rem;
+
+}
+
+.comment-content a {
+    word-wrap: break-word;
+    color:#248a83
+}
+
+.reply{
+
+ font-family: 'merriweatherlight';
+
 }

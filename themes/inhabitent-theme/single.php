@@ -11,8 +11,10 @@ get_header(); ?>
 
 </header>
 
-<div class="journal-site-content-body">
+<div class="journal-site-content">
+	
 <div id="primary" class="content-area">
+	
 		<main id="main" class="site-main" role="main">
 
 

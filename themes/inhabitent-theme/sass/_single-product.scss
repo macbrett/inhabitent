@@ -58,8 +58,19 @@
     color:#248a83
 }
 
+.product-grid-item{
+
+        border: 1px solid #e1e1e1;
+}
+
 .product-grid-item-info{
 justify-content:space-between;
   display:flex;
   align-items:center;
+}
+
+.product-grid-item-info {
+    
+    font-size: 0.9rem;
+    padding: .75rem 1rem;
 }

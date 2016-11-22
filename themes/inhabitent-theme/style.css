@@ -532,9 +532,6 @@ a {
   text-align: right;
   width: 50%; }
 
-li {
-  text-decoration: none; }
-
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -629,9 +626,8 @@ li {
 
 .content-area {
   width: 100%;
-  border-right: 1px solid #e1e1e1;
   padding-top: 3rem;
-  padding-bottom: 3rem; }
+  margin-left: 3rem; }
 
 .journal-site-content {
   display: -ms-flexbox;
@@ -770,9 +766,25 @@ li {
 .bypostauthor {
   display: block; }
 
-.sidebar-flex {
-  display: -ms-flexbox;
-  display: flex; }
+.comments-area {
+  margin-left: 60px; }
+
+.comment-author cite {
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'merriweatherbold'; }
+
+.comment-metadata {
+  font-family: 'merriweatherlight';
+  color: gray;
+  margin-bottom: .75rem; }
+
+.comment-content a {
+  word-wrap: break-word;
+  color: #248a83; }
+
+.reply {
+  font-family: 'merriweatherlight'; }
 
 /*--------------------------------------------------------------
 # Media
@@ -994,6 +1006,9 @@ object {
   padding-left: 3rem;
   width: 45%; }
 
+.sidebar-block-content {
+  border-left: 1px solid #e1e1e1; }
+
 .widget-area {
   padding-left: 10%; }
 
@@ -1001,7 +1016,8 @@ object {
   font-weight: bold; }
 
 .contact-info {
-  padding-left: 40px; }
+  padding-left: 40px;
+  margin-top: 40px; }
 
 .contact-info ul {
   list-style: none;
@@ -1149,11 +1165,12 @@ object {
 
 .mountain-hikers a {
   font-size: 32px;
-  margin-left: 3%; }
+  margin-left: 3%;
+  display: -ms-flexbox;
+  display: flex; }
 
 .mountain-hikers .adventure-button a {
-  font-size: 16px;
-  margin-top: 1.75rem; }
+  font-size: 16px; }
 
 .night-sky {
   background: url("../../images/adventure-photos/night-sky.jpg");
@@ -1451,6 +1468,9 @@ h3 {
 .title-green a {
   color: #248a83; }
 
+.product-grid-item {
+  border: 1px solid #e1e1e1; }
+
 .product-grid-item-info {
   -ms-flex-pack: justify;
       justify-content: space-between;
@@ -1458,6 +1478,10 @@ h3 {
   display: flex;
   -ms-flex-align: center;
       align-items: center; }
+
+.product-grid-item-info {
+  font-size: 0.9rem;
+  padding: .75rem 1rem; }
 
 .about-hero {
   color: #fff;
@@ -1695,7 +1719,8 @@ input[type=submit] {
   width: 50px; }
 
 .site-main-findus {
-  margin-left: 25px; }
+  margin-left: 25px;
+  margin-top: 75px; }
 
 .content-area-body-four {
   margin-top: 60px;

@@ -7,9 +7,12 @@
 
 get_header(); ?>
 
+
+
 <div class="journal-site-content">
   <div id="primary" class="content-area-body">
     <main id="main" class="site-main" role="main">
+     
 
     <?php if ( have_posts() ) : ?>
 

@@ -11,6 +11,9 @@ get_header(); ?>
 <div class="journal-site-content">
 	<div id="primary" class="content-area-body">
 		<main id="main" class="site-main-findus" role="main">
+			
+
+		
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
@@ -36,5 +39,6 @@ get_header(); ?>
 
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>
+<?php get_sidebar(); ?>
