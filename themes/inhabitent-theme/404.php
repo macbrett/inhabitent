@@ -10,13 +10,15 @@
 get_header(); ?>
 
 
-
-	<div id="primary" class="content-area-body">
+	<div class="journal-site-content">
+	<div id="primary" class="content-area-body-four">
+		
 		<main id="main" class="site-main" role="main">
 
 			<section class="error-404 not-found">
 				<header class="page-header">
-					<h1 class="page-title"><?php echo esc_html( 'Oops! That page can&rsquo;t be found. Not to worry - try the following instead:' ); ?></h1>
+					<h1 class="page-title"><?php echo esc_html( 'Oh... Snap! That page can&rsquo;t be found.' ); ?></h1>
+					<p>It looks like nothing was found at this location. Maybe try one of the links below or a search?</p>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
@@ -52,5 +54,6 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+	<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

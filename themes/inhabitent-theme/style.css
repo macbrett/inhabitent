@@ -283,7 +283,8 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
   clear: both;
   clear: both;
-  font-family: Novecento Sans Web,sans-serif;
+  font-family: 'novecentosanswide_normal',sans-serif;
+  font-weight: 100;
   letter-spacing: 2px;
   text-transform: uppercase; }
 
@@ -610,12 +611,17 @@ li {
   padding-left: 0; }
 
 .widget a {
+  font-size: 20px;
   color: #248a83; }
 
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
 /* Posts and pages */
+.body-content {
+  margin-left: 50px;
+  margin-top: 70px; }
+
 .site-content {
   margin-left: auto;
   margin-right: auto;
@@ -985,20 +991,17 @@ object {
 .sidebar-block {
   padding-top: 3rem;
   padding-bottom: 3rem;
+  padding-left: 3rem;
   width: 45%; }
 
 .widget-area {
-  padding-left: 5%; }
-
-.widget-area p {
-  padding-left: 5%;
-  font-size: 18px; }
+  padding-left: 10%; }
 
 .day-of-week {
   font-weight: bold; }
 
 .contact-info {
-  padding-left: 5%; }
+  padding-left: 40px; }
 
 .contact-info ul {
   list-style: none;
@@ -1133,7 +1136,7 @@ object {
 .bundle2 {
   display: -ms-flexbox;
   display: flex;
-  height: 270px;
+  height: 265px;
   overflow: hidden; }
 
 .mountain-hikers {
@@ -1141,7 +1144,7 @@ object {
   background-size: cover;
   display: flex 2 1 48%;
   margin-right: 0.5%;
-  margin-top: 3%;
+  margin-top: 2%;
   background: cover; }
 
 .mountain-hikers a {
@@ -1161,13 +1164,13 @@ object {
   display: -ms-flexbox;
   display: flex;
   margin-right: 0.5%;
-  margin-left: 3%;
-  margin-top: 3%;
+  margin-left: 2%;
+  margin-top: 2%;
   background-size: cover;
   background-position: center bottom; }
 
 .night-sky a {
-  font-size: 32px; }
+  font-size: 22px; }
 
 .night-sky .adventure-button a {
   font-size: 16px;
@@ -1392,6 +1395,15 @@ h3 {
   color: #248a83;
   text-decoration: none;
   line-height: 1.25; }
+
+.product-header h2 {
+  color: #2f1339; }
+
+.journal-header h2 {
+  color: #2f1339; }
+
+.latest-adventures-header {
+  color: #2f1339; }
 
 /*--------------------------------------------------------------
 # Single-Product
@@ -1684,6 +1696,10 @@ input[type=submit] {
 
 .site-main-findus {
   margin-left: 25px; }
+
+.content-area-body-four {
+  margin-top: 60px;
+  margin-left: 50px; }
 
 /*--------------------------------------------------------------
 # Contact Form 7
