@@ -531,6 +531,9 @@ a {
   text-align: right;
   width: 50%; }
 
+li {
+  text-decoration: none; }
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -600,6 +603,14 @@ a {
 /* Search widget. */
 .widget_search .search-submit {
   display: none; }
+
+.widget ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0; }
+
+.widget a {
+  color: #248a83; }
 
 /*--------------------------------------------------------------
 # Content
@@ -960,6 +971,17 @@ object {
   text-transform: uppercase;
   color: white; }
 
+.fa-envelope i {
+  color: white; }
+
+.fa-envelope-footer:before {
+  content: "\f095";
+  color: white; }
+
+.fa-phone-footer:before {
+  content: "\f0e0";
+  color: white; }
+
 .sidebar-block {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -1003,6 +1025,9 @@ object {
 .fa-envelope:before {
   content: "\f0e0";
   color: black; }
+
+.widget_archive a {
+  color: #248a83; }
 
 .latest-adventures {
   display: -ms-flexbox;
@@ -1166,7 +1191,7 @@ h3 a:hover {
 
 .more-button {
   background-color: #248a83;
-  margin-left: 50px; }
+  margin-left: 73px; }
 
 .product-page-header {
   border-bottom: 1px dashed #c8c8c8;
@@ -1221,6 +1246,11 @@ h3 a:hover {
 .product-grid-item-info {
   display: -ms-flexbox;
   display: flex; }
+
+.content-area-body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px; }
 
 .product-header {
   font-size: 1.6rem;
@@ -1376,7 +1406,7 @@ h3 {
   padding-left: 20px; }
 
 .single-content-area {
-  padding-top: 3rem;
+  padding-top: 5rem;
   padding-bottom: 3rem;
   padding-left: 3rem;
   display: -ms-flexbox;
@@ -1388,7 +1418,7 @@ h3 {
   color: #d99054; }
 
 .single-price {
-  font-family: Novecento Sans Web,sans-serif;
+  font-family: 'novecentosanswide_normal',sans-serif;
   font-size: 28.8px;
   font-size: 1.8rem;
   margin-top: 0;
@@ -1563,7 +1593,8 @@ input[type=submit] {
   text-decoration: none;
   text-transform: uppercase; }
 
-.seriously {
+.find-us-data {
+  max-width: 760px;
   font-size: 20px; }
 
 .comment-author-avatar {
@@ -1650,6 +1681,9 @@ input[type=submit] {
   position: absolute;
   right: 0;
   width: 50px; }
+
+.site-main-findus {
+  margin-left: 25px; }
 
 /*--------------------------------------------------------------
 # Contact Form 7

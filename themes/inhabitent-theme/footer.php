@@ -17,13 +17,13 @@
           <div class="contact">
             <h3>Contact Info</h3>
             <p>
-              <i class="fa fa-envelope">
+              <i class="fa fa-envelope-footer">
 
               </i>
               <a href="mailto:info@inhabitent.com">info@inhabitent.com</a>
             </p>
             <p>
-              <i class="fa fa-phone">
+              <i class="fa fa-phone-footer">
 
               </i>
               <a href="tel:555-555-5555">555-555-5555</a>
@@ -49,9 +49,9 @@
          <div class="footer-block-item">
            <div class="business-hours">
              <h3>Business Hours</h3>
-             <p><span class="day-of-week">Monday-Friday:</span>" 9am to 5pm"</p>
-              <p><span class="day-of-week">Saturday:</span>" 10am to 2pm"</p>
-               <p><span class="day-of-week">Sunday:</span>" Closed"</p>
+             <p><span class="day-of-week">Monday-Friday:</span>9am to 5pm</p>
+              <p><span class="day-of-week">Saturday:</span> 10am to 2pm</p>
+               <p><span class="day-of-week">Sunday:</span> Closed </p>
            </div>
          </div>
           <div class="footer-block-item">

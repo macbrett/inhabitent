@@ -12,7 +12,7 @@ get_header(); ?>
 </header>
 
 
-  <div id="primary" class="content-area">
+  <div id="primary" class="content-area-body">
     <main id="main" class="site-main" role="main">
 
 
