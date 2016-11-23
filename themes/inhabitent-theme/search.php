@@ -10,7 +10,7 @@ get_header(); ?>
 
 <div class="journal-site-content">
 	<section id="primary" class="content-area-body">
-		<main id="main" class="site-main" role="main">
+		<main id="main" class="site-main-findus" role="main">
 
 		<?php if ( have_posts() ) : ?>
 

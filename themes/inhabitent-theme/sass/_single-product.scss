@@ -15,6 +15,11 @@
     padding-left:20px;
 }
 
+.single-image-wrapper{
+
+    padding-top:48px;
+}
+
 .single-content-area{
     padding-top: 5rem;
     padding-bottom: 3rem;
@@ -27,8 +32,11 @@
     justify-content: space-between;
 }
 
-.single-product-title{
-    color:#d99054
+.single-product-title h1{
+    color:#d99054;
+    font-family: 'novecentosanswide_demibold',sans-serif;
+    font-size:2.4rem;
+    
 }
 
 .single-price{
@@ -37,11 +45,10 @@
     font-size: 1.8rem;
     margin-top: 0;
     text-transform: uppercase;
+        margin-bottom: 0;
 }
 
-.entry-content p{
-    font-size:20px;
-}
+
 
 .fa-thumbs-up:before{
     color:black;

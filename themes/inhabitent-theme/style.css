@@ -655,6 +655,7 @@ a {
   top: 0; }
 
 .entry-title a {
+  font-family: 'novecentosanswide_demibold';
   display: block; }
 
 .entry-title a:hover {
@@ -1448,6 +1449,9 @@ h3 {
 .single-content-wrapper {
   padding-left: 20px; }
 
+.single-image-wrapper {
+  padding-top: 48px; }
+
 .single-content-area {
   padding-top: 5rem;
   padding-bottom: 3rem;
@@ -1457,18 +1461,18 @@ h3 {
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
-.single-product-title {
-  color: #d99054; }
+.single-product-title h1 {
+  color: #d99054;
+  font-family: 'novecentosanswide_demibold',sans-serif;
+  font-size: 2.4rem; }
 
 .single-price {
   font-family: 'novecentosanswide_normal',sans-serif;
   font-size: 28.8px;
   font-size: 1.8rem;
   margin-top: 0;
-  text-transform: uppercase; }
-
-.entry-content p {
-  font-size: 20px; }
+  text-transform: uppercase;
+  margin-bottom: 0; }
 
 .fa-thumbs-up:before {
   color: black; }
@@ -1739,6 +1743,12 @@ input[type=submit] {
 .content-area-body-four {
   margin-top: 60px;
   margin-left: 50px; }
+
+.title-green h1 {
+  font-family: 'novecentosanswide_demibold'; }
+
+.title-green a:hover {
+  color: #2f1339; }
 
 /*--------------------------------------------------------------
 # Contact Form 7
