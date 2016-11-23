@@ -39,6 +39,7 @@
 
 }
 
+
 .entry-header img{
     height:520px;
     width:760px;
@@ -64,10 +65,15 @@
 }
 
  .entry-title a{
-   
+       
     display:block;
 
- }
+}
+
+.entry-title a:hover{
+
+    color: #f0e4d1;
+}
 
  .entry-title{
     max-width: 100%;
@@ -78,6 +84,11 @@
 .journal-title a{
     color:white;
     text-decoration:none;
+  font-family: 'novecentosanswide_demibold';
+  font-size: 33.6px;
+    font-size: 2.1rem;
+    margin-left:20px;
+  
 }
 
 .journal-title p{
@@ -86,6 +97,7 @@
 
 .journal-title .entry-title{
     max-width:75%;
+      width:700px;
 }
 
  .journal-entry-meta .entry-meta {
@@ -239,4 +251,11 @@ color:black;
 
  font-family: 'merriweatherlight';
 
+}
+
+input[type=email], input[type=password], input[type=search], input[type=text], input[type=url], textarea {
+    color: #666;
+    background-color: #f4f4f4;
+    border: 1px solid #e1e1e1;
+    border-radius: 0;
 }

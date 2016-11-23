@@ -657,18 +657,26 @@ a {
 .entry-title a {
   display: block; }
 
+.entry-title a:hover {
+  color: #f0e4d1; }
+
 .entry-title {
   max-width: 100%; }
 
 .journal-title a {
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: 'novecentosanswide_demibold';
+  font-size: 33.6px;
+  font-size: 2.1rem;
+  margin-left: 20px; }
 
 .journal-title p {
   font-size: 2rem; }
 
 .journal-title .entry-title {
-  max-width: 75%; }
+  max-width: 75%;
+  width: 700px; }
 
 .journal-entry-meta .entry-meta {
   background-color: #248a83;
@@ -785,6 +793,12 @@ a {
 
 .reply {
   font-family: 'merriweatherlight'; }
+
+input[type=email], input[type=password], input[type=search], input[type=text], input[type=url], textarea {
+  color: #666;
+  background-color: #f4f4f4;
+  border: 1px solid #e1e1e1;
+  border-radius: 0; }
 
 /*--------------------------------------------------------------
 # Media
