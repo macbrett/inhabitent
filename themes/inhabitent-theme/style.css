@@ -661,8 +661,10 @@ a {
 
 .entry-title {
   max-width: 100%;
-  font-family: 'novecentosanswide_demibold';
-  font-size: 40px; }
+  font-family: 'novecentosanswide_demibold'; }
+
+.product-page-header {
+  padding-top: 60px; }
 
 .journal-title a {
   color: white;
