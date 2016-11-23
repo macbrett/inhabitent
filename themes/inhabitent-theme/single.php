@@ -9,13 +9,14 @@ get_header(); ?>
 
 
 
+
 </header>
 
 <div class="journal-site-content">
 	
 <div id="primary" class="content-area">
 	
-		<main id="main" class="site-main" role="main">
+		<main id="main"  class="site-main-single" role="main">
 
 
 		<?php while ( have_posts() ) : the_post(); ?>

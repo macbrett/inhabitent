@@ -15,7 +15,6 @@ get_header(); ?>
   <div id="primary" class="content-area-body">
     <main id="main" class="site-main" role="main">
 
-
     <?php while ( have_posts() ) : the_post(); ?>
 <div class="single-content-area">
     <div class="single-image-wrapper">

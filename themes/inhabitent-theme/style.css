@@ -648,7 +648,6 @@ a {
   font-size: 33.6px;
   font-size: 1.1rem;
   left: 0;
-  padding: .75rem 0rem;
   position: absolute;
   margin-top: 2.25rem;
   top: 0; }
@@ -661,7 +660,9 @@ a {
   color: #f0e4d1; }
 
 .entry-title {
-  max-width: 100%; }
+  max-width: 100%;
+  font-family: 'novecentosanswide_demibold';
+  font-size: 40px; }
 
 .journal-title a {
   color: white;
@@ -1668,6 +1669,9 @@ input[type=submit] {
 .comment-body {
   border-bottom: true; }
 
+.site-main-single {
+  margin-left: 50px; }
+
 /*--------------------------------------------------------------
 #  Search Form
 --------------------------------------------------------------*/
@@ -1736,7 +1740,7 @@ input[type=submit] {
   width: 50px; }
 
 .site-main-findus {
-  margin-left: 25px;
+  margin-left: 50px;
   margin-top: 75px; }
 
 .content-area-body-four {
@@ -1748,6 +1752,12 @@ input[type=submit] {
 
 .title-green a:hover {
   color: #2f1339; }
+
+.comment-body {
+  padding-top: 20px;
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 10px;
+  width: 400px; }
 
 /*--------------------------------------------------------------
 # Contact Form 7
