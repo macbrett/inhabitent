@@ -625,8 +625,7 @@ a {
   /*width: 1120px;*/ }
 
 .content-area {
-  width: 100%;
-  padding-top: 3rem; }
+  width: 100%; }
 
 .journal-site-content {
   display: -ms-flexbox;
@@ -872,10 +871,21 @@ object {
   width: 100%;
   z-index: 3;
   padding: .5rem 0;
-  width: 100%; }
+  width: 100%;
+  padding: .5rem 0;
+  position: fixed;
+  text-shadow: 1px 1px 2px #323232; }
 
 .site-header a {
-  color: #248a83; }
+  color: white; }
+
+.site-header.green a {
+  color: #248a83;
+  text-shadow: none; }
+
+.site-header.background {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-bottom: 1px solid #e1e1e1; }
 
 .container {
   -ms-flex-align: center;
@@ -903,11 +913,13 @@ object {
 
 .logo {
   width: 53px;
-  color: #248a83;
-  margin-left: 20px; }
+  color: white;
+  margin-left: 20px;
+  text-shadow: 1px 1px 2px #323232; }
 
 .logo a {
-  color: #248a83; }
+  color: white;
+  text-shadow: 1px 1px 2px #323232; }
 
 .main-navigation {
   font-family: Novecento Sans Web,sans-serif;
@@ -930,6 +942,19 @@ object {
 .header-search {
   line-height: 1;
   padding-left: 1.5rem; }
+
+.toggle.green {
+  background: blue;
+  font-family: FontAwesome;
+  content: "\f00e";
+  border: medium none;
+  color: green;
+  cursor: pointer;
+  display: block;
+  height: 20px;
+  right: 0;
+  width: 50px;
+  padding-left: 20px; }
 
 /*--------------------------------------------------------------
 # Footer
@@ -1686,7 +1711,7 @@ input[type=submit] {
   font-family: FontAwesome;
   content: "\f00e";
   border: medium none;
-  color: #248a83;
+  color: white;
   cursor: pointer;
   display: block;
   height: 20px;

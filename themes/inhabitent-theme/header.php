@@ -32,7 +32,7 @@
 
 <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 
-       <img src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-tent.svg" alt="Logo" width="HERE" height="HERE" />
+       <img src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-tent-white.svg" alt="Logo" width="HERE" height="HERE" />
     </a>
 
 
@@ -67,3 +67,4 @@
 			</header><!-- #masthead -->
 
 			<div id="content" class="site-content">
+

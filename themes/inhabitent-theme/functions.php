@@ -104,3 +104,8 @@ require get_template_directory() . '/inc/template-tags.php';
 require get_template_directory() . '/inc/extras.php';
 
 
+
+
+ wp_enqueue_script( 'scroll_function', get_template_directory_uri() . '/js/scroll_function.js', array ( 'jquery' ), 1.1, true);
+
+
