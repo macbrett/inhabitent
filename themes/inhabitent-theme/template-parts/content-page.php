@@ -20,7 +20,5 @@
 				'after'  => '</div>',
 			) );
 		?>
-
-		
 	</div><!-- .entry-content -->
 </article><!-- #post-## -->

@@ -18,7 +18,7 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-summary">
+		<div class="entry-summary">
 		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
+		</div><!-- .entry-summary -->
 </article><!-- #post-## -->

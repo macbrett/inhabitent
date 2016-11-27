@@ -60,10 +60,6 @@
 
        <img src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-text.svg" alt="Logo" width="HERE" height="HERE" />
     </a>
-
-
-
-
             </div>
           </div>
         </div>
@@ -72,16 +68,11 @@
             Copyright 2016 Inhabitent
           </div>
         </div>
-
-<!--
-<a href="<?php echo esc_url( 'https://wordpress.org/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'WordPress' ); ?></a>
-	-->
-
-</div><!-- .site-info -->
-			</footer><!-- #colophon -->
-		</div><!-- #page -->
+      </div><!-- .site-info -->
+	  </footer><!-- #colophon -->
+  </div><!-- #page -->
 
 		<?php wp_footer(); ?>
 
-	</body>
+  </body>
 </html>

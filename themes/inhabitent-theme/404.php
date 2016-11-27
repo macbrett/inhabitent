@@ -23,8 +23,6 @@ get_header(); ?>
 
 				<div class="page-content">
 
-
-
 					<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
 
 					<?php if ( red_starter_categorized_blog() ) : // Only show the widget if site has multiple categories. ?>
